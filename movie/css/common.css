@@ -402,7 +402,7 @@ a:hover {
     width: 156px;
     height: 184px;
 }
-.homepage .movie-rank .left-area .top-three img{
+.homepage  .left-area .top-three img{
     width: 100px;
     height: 75px;
     padding: 10px 0 0 15px;
@@ -419,15 +419,17 @@ a:hover {
     background-color: rgb(110, 152, 66);
 }
 .after-four .order-gray-logo{
-    position: absolute;
+    /* position: absolute; */
     width: 20px;
     height: 20px;
-    bottom: 4px;
-    left: 15px;
+    /* bottom: 4px; */
+    margin-left: 15px;
+    /* left: 15px; */
     color:white;
+    margin-top: 16px;
     text-align: center;
     line-height: 20px;
-    background-color: black;
+    background-color: #797575;
 }
 .homepage    .trailer-rank .month li{
      display: inline-block;
