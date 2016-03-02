@@ -71,6 +71,12 @@ h1, h2, h3, h4, h5, h6 {
 .position-absolute{
     position: absolute;
 }
+
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 /* 上下左右箭头样式 */
 
 .arrow {
