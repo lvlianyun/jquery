@@ -36,6 +36,9 @@ fieldset, img {
 .normal-bg-color{
     background-color:rgb(110, 152, 66);
 }
+.normal-font-color {
+  color:rgb(110, 152, 66)!important;
+}
 .white{
     color:white;
 }
@@ -419,7 +422,7 @@ a:hover {
     background-color: rgb(110, 152, 66);
 }
 .after-four .order-gray-logo{
-    /* position: absolute; */
+    display: inline-block;
     width: 20px;
     height: 20px;
     /* bottom: 4px; */
@@ -430,6 +433,14 @@ a:hover {
     text-align: center;
     line-height: 20px;
     background-color: #797575;
+}
+.after-four  p,.top-three  p{
+   color: black;
+    display: inline-block;
+   margin: 0 8px;
+   bottom: 2px;
+    right: 10px;
+
 }
 .homepage    .trailer-rank .month li{
      display: inline-block;
