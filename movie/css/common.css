@@ -416,6 +416,14 @@ a:hover {
     height: 75px;
     padding: 10px 0 0 15px;
 }
+.homepage  .left-area .top-three  .click-info{
+    top: 17px;
+    left: 145px;
+    /* padding-top:10px; */
+    font-size: 14px;
+
+    line-height: 30px;
+}
 .top-three .order-light-logo{
     position: absolute;
     width: 25px;
@@ -440,13 +448,19 @@ a:hover {
     line-height: 20px;
     background-color: #797575;
 }
-.after-four  p,.top-three  p{
-   color: black;
-    display: inline-block;
-   margin: 0 8px;
-   bottom: 2px;
-    right: 10px;
 
+.after-four  p,.after-four  strong{
+    color: black;
+    display: inline-block;
+    margin: 0 8px;
+    bottom: 2px;
+    right: 10px;
+}
+.after-four  p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 160px;
 }
 .homepage    .trailer-rank .month li{
      display: inline-block;
