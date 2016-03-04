@@ -23,25 +23,34 @@ table {
     border-spacing: 0;
 }
 
+.gray-bg{
+   background-color: #e8e8e8;
+}
 fieldset, img {
     /* line-height: 100%; */
     border: 0;
 }
-.width100{
-    width:100px;
+
+.width100 {
+    width: 100px;
 }
-.paddingTop10{
+
+.paddingTop10 {
     padding-top: 10px;
 }
-.normal-bg-color{
-    background-color:rgb(110, 152, 66);
+
+.normal-bg-color {
+    background-color: rgb(110, 152, 66);
 }
+
 .normal-font-color {
-  color:rgb(110, 152, 66)!important;
+    color: rgb(110, 152, 66) !important;
 }
-.white{
-    color:white;
+
+.white {
+    color: white;
 }
+
 iframe {
     border: none;
     width: 100%;
@@ -65,10 +74,12 @@ h1, h2, h3, h4, h5, h6 {
     /* font-weight: normal; */
     font-size: 100%;
 }
-.position-relative{
+
+.position-relative {
     position: relative;
 }
-.position-absolute{
+
+.position-absolute {
     position: absolute;
 }
 
@@ -77,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+
 /* 上下左右箭头样式 */
 
 .arrow {
@@ -126,12 +138,15 @@ h1, h2, h3, h4, h5, h6 {
 .float-right {
     float: right;
 }
-.display-block{
-     display: block;
- }
-.display-inline-block{
+
+.display-block {
+    display: block;
+}
+
+.display-inline-block {
     display: inline-block;
 }
+
 .margin-top20 {
     margin-top: 20px;
 }
@@ -143,6 +158,7 @@ h1, h2, h3, h4, h5, h6 {
 .margin-left-40 {
     margin-left: -40px !important;
 }
+
 .clearfix:after {
     content: "";
     display: table;
@@ -153,6 +169,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0;
     *zoom: 1;
 }
+
 abbr, acronym {
     border: 0;
 }
@@ -174,6 +191,10 @@ a:hover {
     /* color: white; */
 }
 
+.active{
+    background-color: rgb(110, 152, 66)!important;
+    color: white;
+}
 .d-center-all {
     width: 1200px;
     margin-left: auto;
@@ -223,18 +244,20 @@ a:hover {
     font-size: 15px;
 }
 
-.homepage .banner  .big-bg-img img {
+.homepage .banner .big-bg-img img {
     width: 100%;
     height: 520px;
 }
-.banner .menu-change{
+
+.banner .menu-change {
     bottom: 25px;
     width: 1200px;
     height: 70px;
     margin-left: -600px;
     left: 50%;
 }
-.banner .play{
+
+.banner .play {
     position: absolute;
     left: 25px;
     bottom: 10px;
@@ -244,162 +267,196 @@ a:hover {
     border-radius: 100%;
     cursor: pointer;
 }
-.banner .play .triangle_right{
+
+.banner .play .triangle_right {
     border-left-color: rgb(110, 152, 66);
 }
-.banner .left-scroll{
-  margin-left: 539px;
-  width: 18px;
-  height: 29px;
-  top: 19px;
-  position: absolute;
+
+.banner .left-scroll {
+    margin-left: 539px;
+    width: 18px;
+    height: 29px;
+    top: 19px;
+    position: absolute;
 }
-.banner .menu-item{
-    width:85px;
+
+.banner .menu-item {
+    width: 85px;
     height: 46px;
     /* top: 14px; */
     left: 578px;
     margin-top: 7px;
 }
-.banner .menu-img{
+
+.banner .menu-img {
     text-align: center;
     margin-left: 500px;
 }
-.banner .menu-img .active{
+
+.banner .menu-img .active {
     border: solid 3px rgb(110, 152, 66);
 }
-.banner .menu-item:not(:first-child){
-   margin-top: 6px;
+
+.banner .menu-item:not(:first-child) {
+    margin-top: 6px;
 }
-.banner .right-scroll{
-  width: 18px;
-  height: 29px;
-  top: 19px;
-  position: absolute;
+
+.banner .right-scroll {
+    width: 18px;
+    height: 29px;
+    top: 19px;
+    position: absolute;
 }
-.banner  .menu img{
+
+.banner .menu img {
     cursor: pointer;
 }
-.banner .right-scroll{
 
-right: 36px;
+.banner .right-scroll {
+
+    right: 36px;
 }
 
-
 /* 头部样式 */
-.homepage .header {
+ .header {
     position: relative;
     height: 64px;
     padding: 10px 0 0;
 }
 
-.homepage .header .logo {
+ .header .logo {
+    /* left: 0; */
     position: absolute;
     background: url(../images/top365.png) no-repeat center center;
     height: 56px;
     width: 108px;
 }
 
-.homepage .header .free-movie {
+ .header .free-movie {
     position: absolute;
     background: url(../images/免费电影.png) no-repeat center center;
-    left: 154px;
+    left: 103px;
     width: 115px;
     height: 50px;
     top: 11px;
 }
 
-.homepage .header .tools {
+ .header .tools {
     position: absolute;
-    right: 0;
+    right: 23px;
 }
 
-.homepage .header .tools div {
+ .header .tools div {
     text-align: center;
     display: inline-block;
     padding-left: 17px;
 }
 
-
-
-.homepage .header .tools .update:after {
+ .header .tools .update:after {
     content: '最近更新';
     display: block;
     color: black;
 }
 
-.homepage .header .tools .fackback:after {
+.header .tools .fackback:after {
     content: '留言反馈';
     display: block;
     color: black;
 }
 
-.homepage .header .tools .favorte:after {
+ .header .tools .favorte:after {
     content: '最近收藏';
     display: block;
     color: black;
 }
 
-.homepage .header div {
-    /* position:absolute; */
+ .header div {
+    position: relative;
     color: #6e9842;
 }
 
-.homepage .header .search-input {
+.header .search-input {
     width: 400px;
     height: 36px;
     background: url(../images/search.png) no-repeat right center;
     border: solid 1px #d4d4d4;
+    line-height: 36px;
 }
 
-.homepage .header .wanzheng {
+.header .wanzheng {
     position: absolute;
-    left: 267px;
+    left: 224px;
     top: 28px;
     font-size: 16px;
 }
-
-.homepage .header .search {
+.header .search {
     position: absolute;
     left: 349px;
-    top: 17px;
-}
-/*热门推荐*/
-.homepage  .hot-introduce > div {
-     display:inline-block;
+    top: 10px;
 }
 
-.homepage  .hot-introduce .left-area img{
+/*热门推荐*/
+.homepage .hot-introduce .right-area {
+    width: 868px;
+    margin-left: 4px;
+}
+
+.homepage .hot-introduce .right-area div {
+    display: inline-block;
+}
+
+.homepage .hot-introduce .right-area div img {
+
+    width: 200px;
+
+    height: 128px;
+}
+
+.homepage .hot-introduce .right-area div:first-child {
+    margin-bottom: 20px;
+}
+
+.homepage .hot-introduce .right-area div:not(:nth-child(4n)) {
+    margin-right: 15px;
+    /* margin-top: 20px; */
+}
+
+.homepage .hot-introduce .left-area img {
     width: 300px;
     height: 320px;
 }
 
-.homepage .hot-introduce .right-area .top > div{
+.homepage .hot-introduce .right-area .top > div {
     /* font-size: 16px; */
 }
-.homepage  .hot-introduce .right-area .bottom>div img,.homepage  .hot-introduce .right-area .top >div img{
+
+.homepage .hot-introduce .right-area .bottom > div img, .homepage .hot-introduce .right-area .top > div img {
     width: 200px;
     height: 130px;
 }
-.homepage  .hot-introduce .right-area .bottom {
+
+.homepage .hot-introduce .right-area .bottom {
     margin-top: 25px;
 }
-.homepage .more{
+
+.homepage .more {
     padding-right: 7px;
     font-size: 16px;
 }
-.homepage  .hot-introduce .right-area .top > div, .homepage  .hot-introduce .right-area .bottom > div,.homepage    .televition-rank .right-area .top > div ,.homepage    .televition-rank .right-area .bottom > div  {
+
+.homepage .hot-introduce .right-area .top > div, .homepage .hot-introduce .right-area .bottom > div, .homepage .televition-rank .right-area .top > div, .homepage .televition-rank .right-area .bottom > div {
     display: inline-block;
     margin-left: 18px;
     cursor: pointer;
 }
 
-.homepage .hot-introduce .introduce-info{
-     height: 55px;
-     width: 100%;
-     bottom: 0;
+.homepage .hot-introduce .introduce-info {
+    height: 55px;
+    width: 100%;
+    bottom: 0;
 }
-.homepage .hot-introduce .introduce-info .play{
+
+.homepage .hot-introduce .introduce-info .play {
     position: absolute;
     left: 0;
     bottom: 4px;
@@ -407,11 +464,12 @@ right: 36px;
     height: 51px;
     background: rgb(110, 152, 66);
 }
-.homepage .hot-introduce .introduce-info .desc{
+
+.homepage .hot-introduce .introduce-info .desc {
     position: relative;
     font-size: 16px;
-    color:white;
-    background: rgba(0,0,0,.45);
+    color: white;
+    background: rgba(0, 0, 0, .45);
     bottom: 0px;
     margin-left: 55px;
     width: auto;
@@ -420,6 +478,7 @@ right: 36px;
     line-height: 20px;
     zoom: 1;
 }
+
 .triangle_right {
     position: absolute;
     z-index: 27;
@@ -434,33 +493,38 @@ right: 36px;
 }
 
 /*电视剧点击排行*/
-.homepage  .televition-rank {
+.homepage .televition-rank {
     margin-top: 46px;
 }
-.homepage  .televition-rank > div{
+
+.homepage .televition-rank > div {
     display: inline-block;
 
 }
-.homepage    .televition-rank .left-area  {
+
+.homepage .televition-rank .left-area {
     width: 300px;
     height: 468px;
     background-color: #e8e8e8;
 
 }
-.homepage    .televition-rank .right-area  .bottom{
+
+.homepage .televition-rank .right-area .bottom {
     margin-top: 22px;
 }
-.homepage .televition-rank .right-area .top >div img,.homepage .televition-rank .right-area .bottom >div img{
+
+.homepage .televition-rank .right-area .top > div img, .homepage .televition-rank .right-area .bottom > div img {
     width: 156px;
     height: 184px;
 }
 
-.homepage  .left-area .top-three img{
+.top-three img {
     width: 100px;
     height: 75px;
     padding: 10px 0 0 15px;
 }
-.homepage  .left-area .top-three  .click-info{
+
+ .top-three .click-info {
     top: 17px;
     left: 145px;
     /* padding-top:10px; */
@@ -468,112 +532,126 @@ right: 36px;
 
     line-height: 30px;
 }
-.top-three .order-light-logo{
+
+.top-three .order-light-logo {
     position: absolute;
     width: 25px;
     height: 25px;
     bottom: 4px;
     left: 15px;
-    color:white;
+    color: white;
     text-align: center;
     line-height: 25px;
     background-color: rgb(110, 152, 66);
 }
-.after-four .order-gray-logo{
+
+.after-four .order-gray-logo {
     display: inline-block;
     width: 20px;
     height: 20px;
     margin-left: 15px;
-    color:white;
+    color: white;
     margin-top: 16px;
     text-align: center;
     line-height: 20px;
     background-color: #797575;
 }
 
-.after-four  p,.after-four  strong{
+.after-four p, .after-four strong {
     color: black;
     display: inline-block;
     margin: 0 8px;
     bottom: 2px;
     right: 10px;
 }
-.after-four  p{
+
+.after-four p {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     width: 160px;
 }
-.homepage    .trailer-rank .month li{
-     display: inline-block;
+
+.homepage .trailer-rank .month li {
+    display: inline-block;
 }
-.homepage    .trailer-rank .month li:not(:last-child) a{
+
+.homepage .trailer-rank .month li:not(:last-child) a {
     display: inline-block;
     border-right: solid 1px #615C5C;
     padding-right: 5px;
 }
-.homepage    .trailer-rank  .month  .active a{
-    color:rgb(110, 152, 66);
+
+.homepage .trailer-rank .month .active a {
+    color: rgb(110, 152, 66);
 }
 
-.homepage    .trailer-rank a:not(:last-child){
-     padding: 0 12px;
-     margin-left: 20px;
+.homepage .trailer-rank a:not(:last-child) {
+    padding: 0 12px;
+    margin-left: 20px;
 }
-.homepage    .trailer-rank a:hover{
-     color: rgb(110, 152, 66);;
+
+.homepage .trailer-rank a:hover ,.homepage .more:hover{
+    color: rgb(110, 152, 66);;
 }
-.homepage    .trailer-rank .menu .active{
-    border-bottom: solid 2px  rgb(110, 152, 66);;
+
+.homepage .trailer-rank .menu .active {
+    border-bottom: solid 2px rgb(110, 152, 66);;
 }
-.homepage .trailer{
-    margin-top:10px;
+
+.homepage .trailer {
+    margin-top: 10px;
 }
-.homepage .trailer img{
+
+.homepage .trailer img {
     width: 220px;
     height: 130px;
 }
-.homepage .trailer > div{
-    display:inline-block;
+
+.homepage .trailer > div {
+    display: inline-block;
     margin-bottom: 15px;
     cursor: pointer;
 }
-.homepage .trailer div:not(:nth-child(5n)){
+
+.homepage .trailer div:not(:nth-child(5n)) {
     margin-right: 19px;
 }
-.filter-bg{
-   background: rgba(0,0,0,.45);
-   color:white;
-   bottom: 23px;
-   box-sizing: border-box;
-   width: 100%;
-   padding: 4px 0 6px 9px;
-   font-size: 14px;
+
+.filter-bg {
+    background: rgba(0, 0, 0, .45);
+    color: white;
+    bottom: 23px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 4px 0 6px 9px;
+    font-size: 14px;
 }
-.filter-bg-one{
-    background: rgba(0,0,0,.45);
-    color:white;
+
+.filter-bg-one {
+    background: rgba(0, 0, 0, .45);
+    color: white;
     top: 155px;
     box-sizing: border-box;
     width: 100%;
     padding: 4px 0 6px 9px;
     font-size: 14px;
 }
-.movie-type{
-    background: rgba(0,0,0,0.35);
-    color:white;
-    /* font-weight:bold; */
+
+.movie-type {
+    background: rgba(0, 0, 0, 0.35);
+    color: white;
     right: 0;
     top: 0;
     box-sizing: border-box;
-    /* width: 100%; */
     padding: 3px;
 }
+
 /* 底部菜单样式 */
 .footer {
     clear: both;
     text-align: center;
-    padding:30px 0;
+    padding: 30px 0;
     font-size: 14px;
     margin-top: 70px;
     background-color: #e8e8e8;;
