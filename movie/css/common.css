@@ -182,7 +182,6 @@ a {
 
 .title {
     color: black;
-    /* font-weight: bold; */
     font-size: 18px;
     margin: 10px 0;
 }
@@ -214,13 +213,14 @@ a:hover {
 .navbar ul li {
     display: inline-block;
     line-height: 39px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .navbar ul li a {
     /* width: 84px; */
     display: block;
-    padding: 0 21px;
+    padding: 0px 16px;
+    font-size: 16px;
 }
 
 .navbar ul li a:hover, .navbar ul .active a {
@@ -229,7 +229,7 @@ a:hover {
 }
 
 .navbar ul li:not(:first-child) {
-    margin-left: 22px;
+    margin-left: 26px;
 }
 
 .d-navbar .navbar-menu li {
@@ -345,6 +345,9 @@ a:hover {
     position: absolute;
     right: 23px;
 }
+ .header .tools div{
+     cursor:pointer;
+ }
 
  .header .tools div {
     text-align: center;
