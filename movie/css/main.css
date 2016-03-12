@@ -94,7 +94,7 @@
     color: white;
 }
 
-.detail-page .right-area {
+.detail-page .right-area{
     width: 299px;
     margin-top: 40px;
 }
@@ -114,6 +114,22 @@
 
 .detail-page .televition-rank .list {
     padding: 10px 0px 49px;
+}
+.detail-page .download-list{
+    padding:30px 10px;
+}
+.detail-page .download-list ul{
+    margin-bottom: 10px;
+}
+.detail-page .download-list ul li{
+     display: inline-block;
+     padding:0 2px;
+}
+.detail-page .download-list .url{
+    width: 550px;
+    height: 26px;
+    font-size: 16px;
+
 }
 
 .play-area {
@@ -173,4 +189,62 @@
 
 .play-area .episode a:not(:last-child) {
     margin-right: 15px;
+}
+.simple-page .move-info > div {
+    display: inline-block;
+    margin-top: 25px;
+}
+.simple-page .move-info > div:not(:last-child) {
+    margin-right: 14px;
+}
+.simple-page .action-type{
+    margin-bottom:20px;
+}
+.simple-page .action-type > div{
+     display: inline-block;
+}
+.simple-page .action-type > div:not(:last-child){
+    margin-right: 12px;
+}
+.simple-page .left-area{
+     width: 299px;
+ }
+.simple-page #showSimpleMovie{
+    margin-left: 330px;
+    padding-top: 19px;
+}
+
+.sile-page .televition-rank .list {
+    padding: 10px 0px 49px;
+}
+.search-result .result-info{
+    font-size: 16px;
+    border-bottom: solid 2px rgb(110, 152, 66);
+    padding-bottom: 14px;
+}
+.search-result .item-introduce{
+    border-bottom: solid 1px #e8e8e8;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    /* padding-top: 1px; */
+}
+.search-result .item-introduce img{
+    width: 180px;
+    height: 245px;
+}
+
+.search-result .item-introduce .info{
+    top:0px;
+    left: 200px;
+    height: 245px;
+}
+
+.search-result p{
+    padding-bottom: 6px;
+    font-size: 15px;
+}
+.search-result .small-intro{
+    line-height: 22px;
+    height: 95px;
+    overflow-y: auto;
 }

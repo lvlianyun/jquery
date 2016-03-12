@@ -22,6 +22,28 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+.red{
+    color:red;
+}
+.gray-font-color{
+    color: rgb(123, 119, 119);
+}
+.green-button{
+    font-size: 14px;
+    color:white;
+    border: none;
+    width: 90px;
+    height: 30px;
+    background-color: #6e9842;
+}
+.blue-button{
+    font-size: 14px;
+    color:white;
+    border: none;
+    width: 90px;
+    height: 30px;
+    background-color: #148fe1;
+}
 
 .gray-bg{
    background-color: #e8e8e8;
@@ -30,7 +52,29 @@ fieldset, img {
     /* line-height: 100%; */
     border: 0;
 }
-
+/* 分页样式 */
+.pagination {
+    margin-top: 27px;
+    padding: 10px 0 10px 0px;
+    display: block;
+}
+.pagination > div{
+    display:inline-block;
+}
+.pagination  li{
+    display: inline-block;
+    font-size: 14px;
+}
+.pagination li a {
+    padding: 5px 13px;
+    border-radius: 2px;
+    border: solid 1px #d4d4d4;
+    font-size: 13px;
+}
+.pagination .active a,.pagination li a:hover{
+    background-color: rgb(110, 152, 66);
+    color: white;
+}
 .width100 {
     width: 100px;
 }
@@ -190,10 +234,7 @@ a:hover {
     /* color: white; */
 }
 
-.active{
-    background-color: rgb(110, 152, 66)!important;
-    color: white;
-}
+
 .d-center-all {
     width: 1200px;
     margin-left: auto;
@@ -401,10 +442,11 @@ a:hover {
 /*热门推荐*/
 .homepage .hot-introduce .right-area {
     width: 868px;
-    margin-left: 4px;
+    /* margin-left: -18px; */
 }
 
 .homepage .hot-introduce .right-area div {
+    /* margin-right: 15px; */
     display: inline-block;
 }
 
@@ -419,9 +461,8 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.homepage .hot-introduce .right-area div:not(:nth-child(4n)) {
-    margin-right: 15px;
-    /* margin-top: 20px; */
+.homepage .hot-introduce .right-area > div{
+    margin-left: 11px;
 }
 
 .homepage .hot-introduce .left-area img {
@@ -505,7 +546,7 @@ a:hover {
 
 }
 
-.homepage .televition-rank .left-area {
+.televition-rank .left-area {
     width: 300px;
     height: 468px;
     background-color: #e8e8e8;
@@ -561,7 +602,7 @@ a:hover {
 }
 
 .after-four p, .after-four strong {
-    color: black;
+    /* color: black; */
     display: inline-block;
     margin: 0 8px;
     bottom: 2px;
@@ -583,6 +624,9 @@ a:hover {
     display: inline-block;
     border-right: solid 1px #615C5C;
     padding-right: 5px;
+}
+.homepage .trailer-rank .month .active {
+    
 }
 
 .homepage .trailer-rank .month .active a {
