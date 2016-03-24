@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/* 此样式为整个系统的公共样式 */
+
+html, body {
+    font-family: "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4c4c4c;
+    min-width: 1200px;
+    background-color: white;
+    font-size: 14px;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+form, fieldset, input, textarea, p, blockquote, th, td {
+    padding: 0;
+    margin: 0;
+}
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+a {
+    border: none;
+    color:rgb(170,166,161);
+    text-decoration: none;
+}
+.green-hover{
+    color: rgb(0,193,130);
+}
+.gray-color{
+    color:rgb(170,166,161);
+}
+.d-center-all {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+    font-size: 0;
+    *zoom: 1;
+}
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+.header{
+    color: rgb(170,166,161);
+    border-bottom: solid 1px rgb(226, 222, 222);
+}
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none
+}
+
+.nav>li{
+    display: block;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+   
+}
+.nav>li:not(:last-child) {
+    padding-right: 10px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 0px 0 0 20px;
+}
+
+.nav>li>a:hover,.nav>li>a:focus {
+   color: rgb(0,193,130);
+}
+.header .register{
+    padding-left: 0;
+    padding-right: 12px;
+}
+.header .designer-center{
+   background: url(../images/设计师中心.png) no-repeat left center;
+}
+.header .help-center{
+    background: url(../images/帮助中心.png) no-repeat no-repeat left center;
+}
+.header .guide-center{
+    background: url(../images/网站导航.png) no-repeat no-repeat left center;
+}
+.navbar ul li:not(:first-child) {
+    margin-left: 26px;
+}
+.navbar > div{
+    display: inline-block;
+}
+.navbar .logo{
+    width: 400px;
+    height: 80px;
+    background: url(../images/logo.png) no-repeat no-repeat left center;
+}
+.navbar .search {
+    top: 16px;
+    width: 500px;
+    height: 38px;
+    border-radius: 5px;
+    border: solid 2px rgb(0,193,130);
+}
+ .navbar-menu li {
+    float: left;
+    display: block;
+    padding: 0 53px;
+    line-height: 65px;
+}
+ .navbar .search-btn{
+     float:right;
+     color: white;
+     background-color: rgb(0,193,130);
+     /* top: 7px; */
+     font-size: 18px;
+     line-height: 38px;
+     padding: 0 23px;
+ }
+.navbar form{
+    height: 100%;
+
+}
+ .navbar form select{
+     height: 100%;
+     border: none;
+     outline: none;
+ }
+.navbar .search-input{
+    height: 100%;
+    border: none;
+    width: 327px;
+    outline: none;
+    border-left: solid 1px #F3EEEE;
+    padding-left: 10px;
+}
+ .navbar-menu li a {
+    /* color: white; */
+    font-size: 15px;
+}
+
