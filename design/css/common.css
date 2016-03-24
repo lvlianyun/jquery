@@ -17,6 +17,14 @@ form, fieldset, input, textarea, p, blockquote, th, td {
     padding: 0;
     margin: 0;
 }
+ul li{
+    list-style: none;
+}
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 .position-relative {
     position: relative;
 }
@@ -113,16 +121,25 @@ a {
 }
 .navbar .search {
     top: 16px;
+    left: 410px;
     width: 500px;
     height: 38px;
     border-radius: 5px;
     border: solid 2px rgb(0,193,130);
 }
+.navbar-menu img {
+    bottom: 9px;
+    right: 40px;
+    /* border-bottom:solid 1px  rgb(226, 222, 222); */
+}
  .navbar-menu li {
     float: left;
     display: block;
-    padding: 0 53px;
-    line-height: 65px;
+    padding: 0 40px 0;
+    line-height: 55px;
+}
+.navbar-menu li a {
+    font-size: 18px;
 }
  .navbar .search-btn{
      float:right;
@@ -150,8 +167,11 @@ a {
     border-left: solid 1px #F3EEEE;
     padding-left: 10px;
 }
- .navbar-menu li a {
-    /* color: white; */
-    font-size: 15px;
+
+.design-case ul li ,.designers-recommend ul li , .many-product ul li , .cooperate-list ul li {
+     float: left;
+ }
+.footer > div {
+    display:  inline-block;
 }
 
