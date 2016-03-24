@@ -196,21 +196,20 @@ a {
     height: 500px;
     width: 100%;
 }
+.services{
+    padding: 15px 0;
+}
 .services .title{
-    /* text-align: center; */
-    width: 497px;
-    font-size:20px;
-
+    width: 550px;
+    font-size: 22px;
     margin: 0 auto;
 }
 .services:after{
-    right: -100px;
+    right: 13px;
 }
 
 .services:before{
-    left: -100px;
-}.services:before{
-    left: -100px;
+    /* left: 20px; */
 }
 .services:after, .services:before {
     content: ' ';
@@ -218,9 +217,12 @@ a {
     height: 0;
     line-height: 0;
     border-top: 1px solid #e6e6e6;
-    width: 400px;
+    width: 317px;
     top: 50%;
     
+}
+.services-detail-guide > div {
+    display: inline-block;
 }
 .design-case ul li ,.designers-recommend ul li , .many-product ul li , .cooperate-list ul li {
      float: left;
