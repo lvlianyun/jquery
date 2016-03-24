@@ -200,8 +200,8 @@ a {
     padding: 15px 0;
 }
 .services .title{
-    width: 550px;
-    font-size: 22px;
+    width: 600px;
+    font-size: 24px;
     margin: 0 auto;
 }
 .services:after{
@@ -217,12 +217,17 @@ a {
     height: 0;
     line-height: 0;
     border-top: 1px solid #e6e6e6;
-    width: 317px;
+    width: 285px;
     top: 50%;
     
 }
+.services-detail-guide .title{
+    font-size: 16px;
+    color: black;
+}
 .services-detail-guide > div {
     display: inline-block;
+    width: 294px;
 }
 .design-case ul li ,.designers-recommend ul li , .many-product ul li , .cooperate-list ul li {
      float: left;
