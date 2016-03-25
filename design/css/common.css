@@ -17,6 +17,12 @@ form, fieldset, input, textarea, p, blockquote, th, td {
     padding: 0;
     margin: 0;
 }
+.font-size-12{
+    font-size: 12px;
+}
+.border-none{
+    border: none!important;
+}
 .more{
     line-height: 24px;
     height: 24px;
@@ -28,12 +34,11 @@ form, fieldset, input, textarea, p, blockquote, th, td {
  
 }
 
-.more:hover{
+.more:hover{    
+    color:rgb(0,193,130);
     background: url(../images/绿色+.png) no-repeat 11px 9px;
 }
-.more:hover{
-    color:rgb(0,193,130);
-}
+
 .more-no-border{
     border:none;
 }
@@ -193,7 +198,7 @@ a {
      /* top: 7px; */
      font-size: 18px;
      line-height: 38px;
-     padding: 0 23px;
+     padding: 0px 21px;
  }
 .navbar form{
     height: 100%;
@@ -210,11 +215,9 @@ a {
 .navigate .menu{
     display: inline-block;
     margin-left:100px;
-    /* width: 353px; */
-    /* height: 30px; */
 }
 .navigate .menu a{
-    padding: 0 10px 18px;
+    padding: 0 6px 18px;
     font-size: 13px;
     color: #6B6767;
     margin-right: 15px;
@@ -231,7 +234,7 @@ a {
     margin-right: 10px;
     color: black;
     font-family: "微软雅黑";
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -287,7 +290,7 @@ a {
     
 }
 .services-detail-guide {
-    padding: 0  0 55px 0;
+    padding: 0  0 50px 0;
 }
 .services-detail-guide .title{
     font-size: 15px;
@@ -300,7 +303,7 @@ a {
 }
 
 .services-detail-guide > div:not(:first-child){
-    padding: 0 0 0 43px;
+    padding: 0 0 0 60px;
 }
 .services-detail-guide a{
     font-size: 13px;
@@ -364,10 +367,124 @@ a {
 }
 
 .design-case .list-two .big-img{
-    width:590px;
+    width: 586px;
     height: 430px;
 
 }
+.design-case .list-two .right-top-img img{
+     width: 280px;
+    height: 280px;
+    margin-bottom:26px;
+}
+.design-case .list-two .right-top-img img:not(:last-child){
+     margin-right:26px;
+}
+.design-case .list-two .desc{
+    width: 585px;
+    margin-top: -3px;
+    margin-left: 1px;
+    color: white;
+    padding-top: 42px;
+    height: 160px;
+    box-sizing: border-box;
+    background-color: rgb(26,152,174);
+    padding-left: 28px;
+}
+.designers-recommend .menu{
+    margin-left:55px;
+}
+.design-case .list-two .desc h1{
+    padding-bottom: 10px;
+}
+.design-case .list-two .desc p{
+    padding-left: 7px;
+}
+.designers-recommend,.many-product,.lastest-news {
+    padding-top: 50px;
+    
+}
+.designers-recommend .content{
+    padding-top:30px;
+}
+.designers-recommend .content > div {
+    height: 450px;
+}
+.designers-recommend  .left-area{
+    width: 406px;
+    float: left;
+    padding-right: 40px;
+}
+.designers-recommend ul li{
+  margin-right: 20px;
+}
+.designers-recommend  .right-area{
+    padding-top: 50px;
+    width: 750px;
+    float: right;
+    margin-right: -23px;
+}
+.designers-recommend  .right-area ul li  img{
+    width:120px;
+    height:120px;
+    padding: 10px 5px 20px;
+}
+
+.designers-recommend .introduce{
+    float: left;
+    width: 120px;
+    height: 100%;
+    background-color: rgb(35,190,133);
+}
+.designers-recommend .personal-info{
+    float:right;
+}
+.designers-recommend .personal-info .photo{
+    width: 286px;
+    height: 294px;
+    margin-top: -1px;
+}
+.designers-recommend .personal-info .desc-work{
+    margin-top: -4px;
+    background-color: rgb(242,240,238);
+    margin-right: 1px;
+    height: 158px;
+}
+.designers-recommend .personal-info .desc-work p{
+    padding-top: 10px;
+    font-size: 14px;
+    padding-left: 13px;
+}
+.designers-recommend .personal-info .desc-work p:first-child{
+    padding-top: 26px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.designers-recommend .progress{
+    height: 2px;
+    background-color: rgb(225,225,225);
+    margin: 31px 25px 10px 10px;
+    box-sizing: border-box;
+}
+.designers-recommend .progress .progress-bar{
+    height: 2px;
+    background-color: rgb(0,193,130);
+    margin-bottom: 14px;
+}
+.cooperate-list .cooperate-list-img{
+    border:solid 1px rgb(225,225,225);
+    padding: 20px 15px;
+    margin-bottom: 35px;
+}
+.cooperate-list .cooperate-list-img  img{
+    border-right: solid 1px rgb(225,225,225);;
+    padding: 0px 11px;
+    width: 140px;
+    /* margin-top: 10px; */
+}
+.cooperate-list .cooperate-list-img  img:last-child{
+    border:none;
+}
+
 .footer{
     background-color: rgb(242,240,238);
     height: 210px;
