@@ -422,9 +422,23 @@ a:hover {
 .header .search-input {
     width: 400px;
     height: 36px;
-    background: url(../images/search.png) no-repeat right center;
+   
     border: solid 1px #d4d4d4;
     line-height: 36px;
+}
+.header .search-btn{
+
+    position:absolute;
+
+    right: 0px;
+
+    top: 4px;
+
+    width:30px;
+
+    height:30px;
+
+    background: url(../images/search.png) no-repeat center center;
 }
 
 .header .wanzheng {
@@ -567,13 +581,17 @@ a:hover {
     height: 75px;
     padding: 10px 0 0 15px;
 }
-
+.top-three .click-info span{
+        display: inline-block;
+        position: absolute;
+        right: -48px;
+}
  .top-three .click-info {
-    top: 17px;
-    left: 145px;
+    /* width: 100%; */
+    top: 18px;
+    left: 135px;
     /* padding-top:10px; */
     font-size: 14px;
-
     line-height: 30px;
 }
 
@@ -614,6 +632,7 @@ a:hover {
     white-space: nowrap;
     text-overflow: ellipsis;
     width: 160px;
+    left: 41px;
 }
 
 .homepage .trailer-rank .month li {
@@ -661,8 +680,8 @@ a:hover {
     cursor: pointer;
 }
 
-.homepage .trailer div:not(:nth-child(5n)) {
-    margin-right: 19px;
+.homepage .trailer div:first-child,.homepage .trailer div + div{
+    margin-right: 16px;
 }
 
 .filter-bg {
@@ -703,6 +722,7 @@ a:hover {
     margin-top: 70px;
     background-color: #e8e8e8;;
 }
+
 
 
 

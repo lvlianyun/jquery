@@ -3,10 +3,10 @@
 /* 此样式为整个系统的公共样式 */
 
 html, body {
-    font-family: "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #4c4c4c;
+    color: rgb(170,166,161);
     min-width: 1200px;
     background-color: white;
     font-size: 14px;
@@ -104,6 +104,7 @@ a {
     position: relative;
     display: block;
     padding: 0px 0 0 20px;
+    font-size: 12px;
 }
 
 .nav>li>a:hover,.nav>li>a:focus {
@@ -162,6 +163,8 @@ a {
 .navbar-menu li a {
     font-size: 20px;
     color: black;
+    /* font-weight: bold; */
+    font-family: "微软雅黑";
 }
  .navbar .search-btn{
      float:right;
@@ -197,13 +200,18 @@ a {
     width: 100%;
 }
 .services{
-    padding: 15px 0;
+    padding: 25px 0;
+    font-weight: bolder;
 }
 .services .title{
-    width: 600px;
-    font-size: 24px;
-    margin: 0 auto;
-}
+      width: 600px;
+      font-size: 24px;
+      margin: 0 auto;
+      font-weight: bolder;
+      /* font-family: "微软雅黑"; */
+  }
+
+
 .services:after{
     right: 13px;
 }
@@ -221,18 +229,119 @@ a {
     top: 50%;
     
 }
+.services-detail-guide {
+    padding: 0  0 55px 0;
+}
 .services-detail-guide .title{
     font-size: 16px;
-    color: black;
+    color: #0A0101;
+    font-weight: bold;
 }
 .services-detail-guide > div {
     display: inline-block;
-    width: 294px;
+    width: 251px;
+    padding: 0 0 0 43px;
+    /* text-align: center; */
+}
+.services-detail-guide a{
+    font-size: 13px;
+    padding: 4px 7px;
+    color: rgb(0,193,130);
+    margin-left: -7px;
+}
+.services-detail-guide a:hover,.services-detail-guide .active{
+    color: white;
+    background-color: darkorange;
+}
+.services-detail-guide a i{
+    width: 20px;
+    height: 10px;
+    display: inline-block;
+    background: url("../images/立即了解更多.png") no-repeat right center;
+}
+
+.services-detail-guide .active i,.services-detail-guide a:hover i{
+    background: url("../images/更多.png") no-repeat right center;
+}
+.services-detail-guide .desc{
+    color: rgb(170,166,161);
+    font-size: 14px;
+    padding: 5px 0 23px;
+}
+.services-detail-guide .amount-desc{
+    width:100%;
+    height: 140px;
+}
+.services-detail-guide .amount{
+    font-size: 65px;
+    color: rgb(170,166,161);
+    left: 0px;
+    top: 41px;
+    position: absolute;
+    z-index: 10;
+}
+
+.services-detail-guide .amount-img{
+    position: absolute;
+    right: 37px;
+    width: 130px;
+    height: 130px;
 }
 .design-case ul li ,.designers-recommend ul li , .many-product ul li , .cooperate-list ul li {
-     float: left;
- }
-.footer > div {
-    display:  inline-block;
+    float: left;
+}
+.design-case {
+    
+}
+.navigate{
+    border-bottom: solid 1px #e6e6e6;
+    padding-bottom: 15px;
+}
+.navigate .menu{
+    display: inline-block;
+    margin-left:150px;
+}
+ .navigate p{
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    font-family: "微软雅黑";
+    font-size: 22px;
+}
+.footer{
+    background-color: rgb(242,240,238);
+    height: 210px;
+}
+.footer .content > div {
+    float: left;
+    padding-right: 101px;
+    padding-top: 22px;
+}
+.footer .content > div ul li {
+    margin-bottom:10px;
+}
+.footer .content > div  span{
+    margin-bottom:10px;
+    font-size:14px;
+    display:inline-block;
+    color: rgba(41, 41, 41, 0.71);
+}
+
+.footer .one-qrcode{
+    float:right!important;
+    padding-right: 0!important;;
+    margin-right:46px!important;;
+}
+.footer .two-qrcode{
+    float:right!important;;
+    padding-right: 0!important;;
+
+}
+.copyright{
+    /* text-align: center; */
+    height: 38px;
+    background-color: rgb(225,225,225);
+    line-height: 38px;
+    font-size: 13px;
 }
 

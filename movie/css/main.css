@@ -239,7 +239,7 @@
     height: 245px;
 }
 
-.search-result p{
+ .search-result .left-area p{
     padding-bottom: 6px;
     font-size: 15px;
 }
