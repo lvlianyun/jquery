@@ -17,6 +17,26 @@ form, fieldset, input, textarea, p, blockquote, th, td {
     padding: 0;
     margin: 0;
 }
+.more{
+    line-height: 24px;
+    height: 24px;
+    background: url(../images/灰色+.png) no-repeat 11px 9px;
+    float: right;
+    border: solid 1px rgb(224, 222, 220);
+    padding: 3px 12px 3px 33px;
+    font-size: 12px;
+ 
+}
+
+.more:hover{
+    background: url(../images/绿色+.png) no-repeat 11px 9px;
+}
+.more:hover{
+    color:rgb(0,193,130);
+}
+.more-no-border{
+    border:none;
+}
 .text-left {
     text-align: left
 }
@@ -177,9 +197,46 @@ a {
  }
 .navbar form{
     height: 100%;
-
 }
- .navbar form select{
+
+
+.navigate{
+    border-bottom: solid 1px #e6e6e6;
+    padding-bottom: 15px;
+}
+.navigate span{
+    font-size: 13px;
+}
+.navigate .menu{
+    display: inline-block;
+    margin-left:100px;
+    /* width: 353px; */
+    /* height: 30px; */
+}
+.navigate .menu a{
+    padding: 0 10px 18px;
+    font-size: 13px;
+    color: #6B6767;
+    margin-right: 15px;
+}
+.navigate .menu a:hover{
+    color:rgb(0,193,130);
+}
+.navigate .menu a:hover, .navigate .menu .active{
+    color:rgb(0,193,130);
+    background: url(../images/green-line.png) repeat-x left bottom;
+}
+.navigate p{
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.navbar form select{
      height: 100%;
      border: none;
      outline: none;
@@ -233,15 +290,17 @@ a {
     padding: 0  0 55px 0;
 }
 .services-detail-guide .title{
-    font-size: 16px;
+    font-size: 15px;
     color: #0A0101;
     font-weight: bold;
 }
-.services-detail-guide > div {
+.services-detail-guide > div{
     display: inline-block;
     width: 251px;
+}
+
+.services-detail-guide > div:not(:first-child){
     padding: 0 0 0 43px;
-    /* text-align: center; */
 }
 .services-detail-guide a{
     font-size: 13px;
@@ -265,7 +324,7 @@ a {
 }
 .services-detail-guide .desc{
     color: rgb(170,166,161);
-    font-size: 14px;
+    font-size: 13px;
     padding: 5px 0 23px;
 }
 .services-detail-guide .amount-desc{
@@ -273,8 +332,8 @@ a {
     height: 140px;
 }
 .services-detail-guide .amount{
-    font-size: 65px;
-    color: rgb(170,166,161);
+    font-size: 60px;
+    color: rgb(154, 150, 145);
     left: 0px;
     top: 41px;
     position: absolute;
@@ -290,27 +349,29 @@ a {
 .design-case ul li ,.designers-recommend ul li , .many-product ul li , .cooperate-list ul li {
     float: left;
 }
-.design-case {
-    
+.design-case .cases{
+    padding-top: 30px;
 }
-.navigate{
-    border-bottom: solid 1px #e6e6e6;
-    padding-bottom: 15px;
+.design-case .cases .list-one img {
+    width: 280px;
+    height: 280px;
 }
-.navigate .menu{
-    display: inline-block;
-    margin-left:150px;
+.design-case  .list-one li:not(:last-child){
+    padding-right: 26px;
 }
- .navigate p{
-    display: inline-block;
-    margin-right: 10px;
-    color: black;
-    font-family: "微软雅黑";
-    font-size: 22px;
+.design-case  .list-two li:not(:last-child){
+    padding-right: 26px;
+}
+
+.design-case .list-two .big-img{
+    width:590px;
+    height: 430px;
+
 }
 .footer{
     background-color: rgb(242,240,238);
     height: 210px;
+    font-size: 12px;
 }
 .footer .content > div {
     float: left;
@@ -330,9 +391,10 @@ a {
 .footer .one-qrcode{
     float:right!important;
     padding-right: 0!important;;
-    margin-right:46px!important;;
+    margin-right: 0px!important;;
 }
 .footer .two-qrcode{
+    margin-right: 40px;
     float:right!important;;
     padding-right: 0!important;;
 
