@@ -582,14 +582,14 @@ a:hover {
     padding: 10px 0 0 15px;
 }
 .top-three .click-info span{
-        display: inline-block;
-        position: absolute;
-        right: -48px;
+    display: inline-block;
+    float: right;
+    padding-right: 8px;
 }
  .top-three .click-info {
-    /* width: 100%; */
+    width:165px;
     top: 18px;
-    left: 135px;
+    left: 125px;
     /* padding-top:10px; */
     font-size: 14px;
     line-height: 30px;
