@@ -11,6 +11,9 @@ html, body {
     background-color: white;
     font-size: 14px;
 }
+.black{
+    color:black;
+}
 .circle-menu{
     bottom: 25px;
     left: 50%;
@@ -57,7 +60,7 @@ html, body {
     padding-right:10px;
     padding-left:10px;
 }
-ul.clearfix,p,ul,h2{
+ul.clearfix,p,ul,h2,ol,h3{
     padding: 0;
     margin: 0;
 }
@@ -675,11 +678,8 @@ a {
     margin-right: 20px;
 }
 .many-product .product .product-list{
-    /* display: inline-block; */
-    /* float: left; */
     width: 889px;
     box-sizing: border-box;
-    /* border: solid 1px #e6e6e6; */
     height: 100%;
     margin-left: 307px;
 }
@@ -839,7 +839,6 @@ margin-bottom: -1px;
     font-size: 14px;
     line-height: 24px;
     padding: 10px 0;
-    /* color: rgb(206,206,206); */
     overflow: hidden;
 }
 .lastest-news .lastest-news-list .left-area img{
@@ -847,28 +846,15 @@ margin-bottom: -1px;
    height: 295px;
 }
 .lastest-news .logo{
-    
-left: 25px;
-    
-width: 90px;
-    
-/* height: 40px; */
-    
-position:absolute;
-    
-background: url(../images/latest-recommd.png) no-repeat;
-    
-/* background-size: contain; */
-    
-line-height: 23px;
-    
-padding-left: 10px;
-    
-z-index: 100;
-    
-font-size: 14px;
-    
-top: 273px;
+    left: 25px;
+    width: 90px;
+    position:absolute;
+    background: url(../images/latest-recommd.png) no-repeat;
+    line-height: 23px;
+    padding-left: 10px;
+    z-index: 100;
+    font-size: 14px;
+    top: 273px;
 }
 .title-line{
     height: 26px;

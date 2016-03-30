@@ -1,0 +1,242 @@
+/*最新动态*/
+.latest-news {
+
+}
+.latest-news .news-list li{
+    float:left;
+}
+.latest-news .left-area{
+    width: 850px;
+}
+.latest-news .bread a{
+    font-size: 13px;
+    color: #6b6767;
+    padding: 0 10px;
+}
+.latest-news .bread a:hover{
+    color: rgb(0,190,130);
+    /* padding: 0 10px; */
+}
+.latest-news .right-area{
+    margin-left: 880px;
+    width: 320px;
+}
+.navbar-menu{
+    border-bottom:solid 1px #e4e4e4;
+}
+.latest-news .center-area{
+    margin-bottom: 50px;
+    padding-top:30px;
+}
+.latest-news .center-area  .top{
+   border:solid 1px #e4e4e4;
+  
+}
+
+.latest-news  .center-area  .right-area .title{
+    padding: 10px 0 0 15px;
+}
+.latest-news .center-area .read-list li{
+    padding: 10px 0 10px 14px;
+    border-top:solid 1px #e4e4e4;
+}
+.latest-news .center-area  .bottom{
+     margin-top: 30px;
+     width: 320px;
+     box-sizing: border-box;
+     border:solid 1px #e4e4e4;
+     padding: 15px 17px 15px 17px;
+}
+.latest-news .zhanhui{
+    padding: 0 0px 15px;
+}
+.latest-news .zhanhui img{
+    display: block;
+    width: 281px;
+    height: 200px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.latest-news .zhanhui h2{
+    margin-bottom:10px;
+}
+.Tool-Article-QQ {
+    width: 638px;
+    height: auto;
+    padding: 15px 0 43px 0;
+}
+.Tool-Article-QQ .shareBtn {
+    float: left;
+    width: 305px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.shareBtn-hd {
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    width: 64px;
+    height: 23px;
+    padding-left: 8px;
+    border: 1px solid fff;
+    border-bottom: none;
+    border-left: 1px solid #FFF;
+    color: #676767;
+    line-height: 21px;
+    font-size: 12px;
+}
+
+.h-shareBtn .shareBtn-hd {
+    float: left;
+    width: 55px;
+    padding-left: 0;
+    padding-top: 5px;
+    color: #666;
+    font-size: 14px;
+}
+
+.shareBtn-hd i {
+    position: absolute;
+    right: 6px;
+    top: 8px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #8b8c8e #fff #fff;
+    -moz-transition: -moz-transform .2s ease-in;
+    -webkit-transition: -webkit-transform .2s ease-in;
+    -o-transition: -o-transform .2s ease-in;
+    transition: transform .2s ease-in;
+    -moz-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.hover .shareBtn-hd i {
+    -moz-transform: rotate(180deg);
+    -moz-transform-origin: 50% 30%;
+    -webkit-transform: rotate(180deg);
+    -webkit-transform-origin: 50% 30%;
+    -o-transform: rotate(180deg);
+    -o-transform-origin: 50% 30%;
+    transform: rotate(180deg);
+    transform-origin: 50% 30%;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    top: 3px\9;
+}
+
+.hover .shareBtn-hd {
+    margin-top: -1px;
+    border: 1px solid #d1d1d1;
+    border-bottom: none;
+    background: #fff;
+}
+
+.v-shareBtn {
+    display: inline;
+    width: 64px;
+    height: 23px;
+    float: left;
+    margin-left: -8px;
+}
+
+.v-shareBtn .shareBtn-bd {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 22px;
+    border: 1px solid #d1d1d1;
+    width: 92px;
+    padding: 8px 0;
+    background: #fff;
+}
+
+.hover .shareBtn-bd {
+    display: block;
+}
+
+.shareBtn-bd li {
+    height: 24px;
+    padding: 0 0 0 11px;
+    line-height: 24px;
+}
+
+.shareBtn-bd li.hover {
+    background: #f3f3f3;
+}
+
+.shareBtn-bd a {
+    display: block;
+    padding-left: 22px;
+    color: #5c5c5c;
+}
+
+.shareBtn-bd li.hover a {
+    color: #c00;
+}
+
+.h-shareBtn .shareBtn-bd li {
+    float: left;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.h-shareBtn .shareBtn-bd a {
+    display: block;
+    width: 0;
+    height: 24px;
+    padding-left: 24px;
+    filter: Alpha(Opacity=80);
+    opacity: .8;
+    -moz-transition: opacity .5s ease;
+    -webkit-transition: opacity .5s ease;
+    -o-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+}
+
+.h-shareBtn .shareBtn-bd a:hover {
+    filter: Alpha(Opacity=100);
+    opacity: 1;
+}
+
+.shareBtn24 .s_qzone {
+    background-position: -62px -229px;
+}
+
+
+.shareBtn24 .s_pengyou {
+    background-position: -62px -287px;
+}
+
+.shareBtn24 .s_sina {
+    background-position: -62px -316px;
+}
+
+.shareBtn24 .s_weibo {
+    background-position: -62px -200px;
+}
+
+
+.shareBtn24 .s_qq {
+    background: url(../images/qqshare_16_24.png) -18px -25px no-repeat;
+}
+
+
+.shareBtn-bd a{
+
+    display: inline-block;
+    background: url(../images/s_gallery_2012110702.png) no-repeat 0 0;
+}
+
+
