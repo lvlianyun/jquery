@@ -11,6 +11,7 @@ html, body {
     background-color: white;
     font-size: 14px;
 }
+
 .circle-menu{
     bottom: 25px;
     left: 50%;
@@ -24,6 +25,7 @@ html, body {
        right: 156px;
        top: 1px;
 }
+
 .arrow-down{
     z-index: 10;
     width: 37px;
@@ -56,6 +58,11 @@ html, body {
 .padding10{
     padding-right:10px;
     padding-left:10px;
+}
+
+.padd-top10-bottom10{
+    padding-top:10px;
+    padding-bottom: 10px;
 }
 ul.clearfix,p,ul,h2{
     padding: 0;
@@ -95,6 +102,12 @@ img {
 }
 .border-none:hover{
     background: url(../images/绿色+.png) no-repeat 11px 5px!important;
+}
+.common-black{
+    font-size: 24px;
+    color: black;
+    padding-right: 12px;
+    font-family: "微软雅黑";
 }
 .more{
     line-height: 24px;
@@ -298,6 +311,9 @@ a {
     border-radius: 5px;
     border: solid 2px rgb(0,193,130);
 }
+.navbar-menu{
+    border-bottom: solid 1px rgb(226, 222, 222);
+}
 .navbar-menu img {
     bottom: 0px;
     right: 40px;
@@ -318,7 +334,6 @@ a {
 .navbar-menu li a {
     font-size: 20px;
     color: black;
-    /* font-weight: bold; */
     font-family: "微软雅黑";
 }
  .navbar .search-btn{
@@ -389,7 +404,7 @@ a {
     /* border: solid; */
 }
 .banner {
-    border-top:solid 1px  rgb(226, 222, 222);
+    /* border-top:solid 1px  rgb(226, 222, 222); */
 }
 .banner .menu-img img{
     height: 500px;
@@ -490,7 +505,7 @@ a {
     width: 130px;
     height: 130px;
 }
-.design-case ul li ,.designers-recommend ul li , .many-product ul li , .cooperate-list ul li {
+.design-case ul li ,.designers-recommend ul li , .many-product ul li , .product-guide ul li, .cooperate-list ul li {
     float: left;
 }
 .design-case .cases{
@@ -665,7 +680,7 @@ a {
     height: 635px;
     box-sizing: border-box;
 }
-.many-product .product .product-guide{
+.product-guide{
     width: 285px;
     box-sizing: border-box;
     border: solid 1px #e6e6e6;
@@ -674,12 +689,9 @@ a {
     padding: 20px 15px 20px;
     margin-right: 20px;
 }
-.many-product .product .product-list{
-    /* display: inline-block; */
-    /* float: left; */
+ .product .product-list{
     width: 889px;
     box-sizing: border-box;
-    /* border: solid 1px #e6e6e6; */
     height: 100%;
     margin-left: 307px;
 }
@@ -742,29 +754,29 @@ width: 100%;
     box-sizing: border-box;
     border: solid 1px #e4e4e4;
 }
-.many-product .product-guide .title{
+ .product-guide .title{
      box-sizing: border-box;
      border-bottom: solid 2px #e6e6e6;
      font-size: 16px;
      color: rgb(0,193,130);
      font-weight: bold;
 }
-.many-product .product-guide ul{
+ .product-guide ul{
     padding: 10px 0;
 }
-.many-product .product-guide ul li{
+.product-guide ul li{
     width: 45px;
     font-size: 13px;
     padding-right: 5px;
     padding-bottom: 7px;
 }
-.many-product .product-guide .price li{
+ .product-guide .price li{
     width: 78px;
 }
-.many-product .product-guide ul li a:hover{
+.product-guide ul li a:hover{
     color:rgb(0,193,130);
 }
-.many-product .title strong{
+.product-guide .title strong{
     display: inline-block;
     background: url(../images/green-line.png) repeat-x bottom left;
     padding-bottom: 4px;
@@ -772,15 +784,15 @@ width: 100%;
 }
 
 /*-----合作机构-----*/
-.many-product .cooperate-logo{
+.cooperate-logo{
     border-top: 1px solid #e4e4e4;
     border-left: 1px solid #e4e4e4;
     list-style: none;
     box-sizing: border-box;
     height: 136px;
-    margin-bottom: 20px;
+    margin-bottom: 20px!important;
 }
-.many-product .cooperate-logo li{
+ .cooperate-logo li{
     float: left;
     width: 148px;
     height: 67px;
@@ -793,7 +805,7 @@ width: 100%;
     /* border-right: none; */
     border-bottom: 1px solid #e4e4e4;
 }
-.many-product .cooperate-logo li img{
+ .cooperate-logo li img{
     width: 104px;
     height: 38px;
 }
