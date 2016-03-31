@@ -11,7 +11,12 @@ html, body {
     background-color: white;
     font-size: 14px;
 }
-
+.border-top{
+    border-top: solid 1px #e4e4e4;
+}
+.border-bottom{
+    border-bottom: solid 1px #e4e4e4;
+}
 .black{
     color:black;
 }
@@ -62,6 +67,9 @@ html, body {
 .padding10{
     padding-right:10px;
     padding-left:10px;
+}
+.padd-top10{
+    padding-top:10px;
 }
 .padd-top10-bottom10{
     padding-top:10px;
@@ -161,6 +169,9 @@ ul li{
 
 .position-absolute {
     position: absolute;
+}
+a:hover{
+    color:rgb(0,190,130);
 }
 a {
     border: none;
@@ -1001,15 +1012,11 @@ margin-bottom: -1px;
 }
 
 /*分享的样式*/
-.Tool-Article-QQ {
-    width: 638px;
-    height: auto;
-    padding: 15px 0 43px 0;
-}
-.Tool-Article-QQ .shareBtn {
-    float: left;
+
+ .shareBtn {
+    margin-bottom: 30px;
     width: 305px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 12px;
 }
 
