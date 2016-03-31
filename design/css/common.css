@@ -20,7 +20,11 @@ html, body {
 .black{
     color:black;
 }
+.small-title{
+    color:black;
+    font-size:20px;
 
+}
 .circle-menu{
     bottom: 25px;
     left: 50%;
@@ -83,8 +87,8 @@ ul.clearfix,p,ul,h2,ol,h3{
     color:white;
 }
 .cube{
-    height: 5px;
-    width: 5px;
+    height: 4px;
+    width: 4px;
     background-color: rgb(142,142,142);
     display: inline-block;
     margin-right: 10px;
@@ -222,7 +226,9 @@ ul li{
 .position-absolute {
     position: absolute;
 }
-
+a:hover{
+    color:rgb(0,190,130);
+}
 a {
     border: none;
     color: rgb(170,166,161);
