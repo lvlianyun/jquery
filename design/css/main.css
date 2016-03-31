@@ -68,13 +68,30 @@
 }
 .latest-news .left-area .news-list li{
     width: 40%;
-    padding: 10px 10px 7px 0px;
+    padding: 10px 50px 7px 0px;
     font-size: 16px;
 }
 .latest-news .bread a:hover{
     color: rgb(0,190,130);
     /* padding: 0 10px; */
 }
+.latest-news .left-area  .bottom ul li{
+    cursor:pointer;
+}
+
+.trade-show  .read-list li{
+    padding: 15px 0 15px 14px;
+    border-top:solid 1px #e4e4e4;
+}
+.trade-show .read-list li:hover{
+    background-color: rgb(242,241,239);
+   
+}
+.trade-show .read-list li:hover a{
+    color: rgb(0,190,130);
+}
+
+
 .latest-news .right-area{
     margin-left: 880px;
     width: 320px;
@@ -84,40 +101,27 @@
     margin-bottom: 50px;
     padding-top:30px;
 }
-.latest-news .center-area  .top{
+.trade-show   .top{
     border:solid 1px #e4e4e4;
 
 }
 
-.latest-news  .center-area  .right-area .title{
+.trade-show   .title{
     padding: 10px 0 0 15px;
 }
-.latest-news .center-area .read-list li{
-    padding: 15px 0 15px 14px;
-    border-top:solid 1px #e4e4e4;
-}
-.latest-news .center-area .read-list li:hover{
-    background-color: rgb(242,241,239);
-   
-}
-.latest-news .center-area .read-list li:hover a{
-    color: rgb(0,190,130);
-}
-.latest-news .center-area  .bottom ul li{
-    cursor:pointer;
-}
-.latest-news .center-area  .bottom{
+
+.trade-show .bottom{
     margin-top: 30px;
     width: 320px;
     box-sizing: border-box;
     border:solid 1px #e4e4e4;
     padding: 15px 17px 15px 17px;
 }
-.latest-news .zhanhui{
+.trade-show .zhanhui{
     padding: 0 0px 15px;
-    /* cursor: pointer; */
+  
 }
-.latest-news .zhanhui img{
+.trade-show .zhanhui img{
     display: block;
     width: 281px;
     height: 200px;
@@ -126,6 +130,6 @@
     margin-left: auto;
     margin-right: auto;
 }
-.latest-news .zhanhui h2{
+.trade-show .zhanhui h2{
     margin-bottom:10px;
 }
