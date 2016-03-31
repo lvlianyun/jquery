@@ -12,6 +12,10 @@ html, body {
     font-size: 14px;
 }
 
+.black{
+    color:black;
+}
+
 .circle-menu{
     bottom: 25px;
     left: 50%;
@@ -59,12 +63,11 @@ html, body {
     padding-right:10px;
     padding-left:10px;
 }
-
 .padd-top10-bottom10{
     padding-top:10px;
     padding-bottom: 10px;
 }
-ul.clearfix,p,ul,h2{
+ul.clearfix,p,ul,h2,ol,h3{
     padding: 0;
     margin: 0;
 }
@@ -689,7 +692,7 @@ a {
     padding: 20px 15px 20px;
     margin-right: 20px;
 }
- .product .product-list{
+.many-product .product .product-list{
     width: 889px;
     box-sizing: border-box;
     height: 100%;
@@ -851,7 +854,6 @@ margin-bottom: -1px;
     font-size: 14px;
     line-height: 24px;
     padding: 10px 0;
-    /* color: rgb(206,206,206); */
     overflow: hidden;
 }
 .lastest-news .lastest-news-list .left-area img{
@@ -859,28 +861,15 @@ margin-bottom: -1px;
    height: 295px;
 }
 .lastest-news .logo{
-    
-left: 25px;
-    
-width: 90px;
-    
-/* height: 40px; */
-    
-position:absolute;
-    
-background: url(../images/latest-recommd.png) no-repeat;
-    
-/* background-size: contain; */
-    
-line-height: 23px;
-    
-padding-left: 10px;
-    
-z-index: 100;
-    
-font-size: 14px;
-    
-top: 273px;
+    left: 25px;
+    width: 90px;
+    position:absolute;
+    background: url(../images/latest-recommd.png) no-repeat;
+    line-height: 23px;
+    padding-left: 10px;
+    z-index: 100;
+    font-size: 14px;
+    top: 273px;
 }
 .title-line{
     height: 26px;
@@ -1005,10 +994,184 @@ top: 273px;
     padding-right: 0!important;
 }
 .copyright{
-    /* text-align: center; */
     height: 38px;
     background-color: rgb(225,225,225);
     line-height: 38px;
     font-size: 13px;
 }
+
+/*分享的样式*/
+.Tool-Article-QQ {
+    width: 638px;
+    height: auto;
+    padding: 15px 0 43px 0;
+}
+.Tool-Article-QQ .shareBtn {
+    float: left;
+    width: 305px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.shareBtn-hd {
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    width: 64px;
+    height: 23px;
+    padding-left: 8px;
+    border: 1px solid #fff;
+    border-bottom: none;
+    border-left: 1px solid #FFF;
+    color: #676767;
+    line-height: 21px;
+    font-size: 12px;
+}
+
+.h-shareBtn .shareBtn-hd {
+    float: left;
+    width: 55px;
+    padding-left: 0;
+    padding-top: 5px;
+    color: #666;
+    font-size: 14px;
+}
+
+.shareBtn-hd i {
+    position: absolute;
+    right: 6px;
+    top: 8px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #8b8c8e #fff #fff;
+    -moz-transition: -moz-transform .2s ease-in;
+    -webkit-transition: -webkit-transform .2s ease-in;
+    -o-transition: -o-transform .2s ease-in;
+    transition: transform .2s ease-in;
+}
+
+.hover .shareBtn-hd i {
+    -moz-transform: rotate(180deg);
+    -moz-transform-origin: 50% 30%;
+    -webkit-transform: rotate(180deg);
+    -webkit-transform-origin: 50% 30%;
+    -o-transform: rotate(180deg);
+    -o-transform-origin: 50% 30%;
+    transform: rotate(180deg);
+    transform-origin: 50% 30%;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    top: 3px\9;
+}
+
+.hover .shareBtn-hd {
+    margin-top: -1px;
+    border: 1px solid #d1d1d1;
+    border-bottom: none;
+    background: #fff;
+}
+
+.v-shareBtn {
+    display: inline;
+    width: 64px;
+    height: 23px;
+    float: left;
+    margin-left: -8px;
+}
+
+.v-shareBtn .shareBtn-bd {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 22px;
+    border: 1px solid #d1d1d1;
+    width: 92px;
+    padding: 8px 0;
+    background: #fff;
+}
+
+.hover .shareBtn-bd {
+    display: block;
+}
+
+.shareBtn-bd li {
+    height: 24px;
+    padding: 0 0 0 11px;
+    line-height: 24px;
+}
+
+.shareBtn-bd li.hover {
+    background: #f3f3f3;
+}
+
+.shareBtn-bd a {
+    display: block;
+    padding-left: 22px;
+    color: #5c5c5c;
+}
+
+.shareBtn-bd li.hover a {
+    color: #c00;
+}
+
+.h-shareBtn .shareBtn-bd li {
+    float: left;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.h-shareBtn .shareBtn-bd a {
+    display: block;
+    width: 0;
+    height: 24px;
+    padding-left: 24px;
+    filter: Alpha(Opacity=80);
+    opacity: .8;
+    -moz-transition: opacity .5s ease;
+    -webkit-transition: opacity .5s ease;
+    -o-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+}
+
+.h-shareBtn .shareBtn-bd a:hover {
+    filter: Alpha(Opacity=100);
+    opacity: 1;
+}
+
+.shareBtn24 .s_qzone {
+    background-position: -62px -229px;
+}
+
+
+.shareBtn24 .s_pengyou {
+    background-position: -62px -287px;
+}
+
+.shareBtn24 .s_sina {
+    background-position: -62px -316px;
+}
+
+.shareBtn24 .s_weibo {
+    background-position: -62px -200px;
+}
+
+
+.shareBtn24 .s_qq {
+    background: url(../images/qqshare_16_24.png) -18px -25px no-repeat;
+}
+
+
+.shareBtn-bd a{
+
+    display: inline-block;
+    background: url(../images/s_gallery_2012110702.png) no-repeat 0 0;
+}
+
 
