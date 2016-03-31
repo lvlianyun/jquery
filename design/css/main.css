@@ -13,13 +13,16 @@
 .latest-news .news-list li{
     float:left;
 }
-.latest-news .left-area{
+.latest-news .left-area,.trade-show-info .left-area{
     width: 850px;
 }
-.latest-news .bread a{
+.bread a{
     font-size: 13px;
     color: #6b6767;
-    padding: 0 10px 0 0;
+    padding: 0 10px 0 0px;
+}
+.bread a:hover{
+    color:rgb(0,190,130);
 }
 .latest-news .left-area .title{
     font-size:24px;
@@ -92,7 +95,7 @@
 }
 
 
-.latest-news .right-area{
+.latest-news .right-area,.trade-show-info .right-area{
     margin-left: 880px;
     width: 320px;
 }
@@ -104,6 +107,7 @@
 .trade-show   .top{
     border:solid 1px #e4e4e4;
 
+    margin-top: 30px;
 }
 
 .trade-show   .title{
@@ -132,4 +136,60 @@
 }
 .trade-show .zhanhui h2{
     margin-bottom:10px;
+}
+/*展会信息*/
+.trade-show-info .center-area{
+    padding: 15px 0;
+}
+.trade-show-info .left-area .menu-tab{
+     height: 50px;
+     background-color:rgb(242,240,238);
+     width:100%;
+     margin-top: 15px;
+     margin-bottom: 30px;
+     border: solid 1px #e4e4e4;
+}
+.trade-show-info .left-area .menu-tab li{
+     float:left;
+     line-height: 49px;
+     padding:0 10px 0 20px;
+     font-size: 20px;
+      font-weight:bold;
+     border-top:solid 2px transparent;
+       border-left:solid 1px transparent;
+     border-right:solid 1px transparent;
+}
+.trade-show-info .left-area .menu-tab .active,.trade-show-info .left-area .menu-tab li:hover{
+     background-color:white;
+     border-top:solid 2px  rgb(0,190,130);
+     border-left:solid 1px #e4e4e4;
+     border-right:solid 1px #e4e4e4;
+ }
+ .trade-show-info .left-area .menu-tab .active a,.trade-show-info .left-area .menu-tab li:hover a{
+    color: rgb(0,190,130);
+   
+ }
+.trade-show-info .left-area .trade-list   img ,.trade-show-info .left-area .soft-decoration-list   img{
+   
+    float:left;
+    width: 280px;
+    height: 160px;
+    margin-right: 15px;
+}
+.trade-show-info .trade-list li{
+    /* color: #6b6767; */
+    margin-bottom: 20px;
+}
+.trade-show-info .trade-list li p{
+    font-size:13px;
+    margin-top: 8px;
+    line-height: 20px;
+}
+.trade-show-info .trade-list .address{
+   bottom: 1px;      
+   right: 479px;
+}
+.trade-show-info .trade-list .time{
+    bottom: 19px;
+    right: 437px;
 }

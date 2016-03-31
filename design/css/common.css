@@ -94,6 +94,58 @@ img {
     border:none;
     vertical-align: middle;
 }
+/* 分页样式 */
+.pagination {
+    margin-top: 27px;
+    padding: 35px 0 55px 0px;
+    display: block;
+    text-align: center;
+}
+.pagination > div{
+    display:inline-block;
+}
+.pagination  li{
+    display: inline-block;
+    font-size: 14px;
+}
+.pagination .left-move{
+    background:url(../images/left-move.png) no-repeat center center;
+}
+.pagination .right-move{
+    background:url(../images/right-move.png) no-repeat center center;
+}
+
+.pagination .move,.pagination .right-move:hover,.pagination .left-move:hover{
+    background-color: rgba(243, 229, 229, 0.36);
+}
+
+
+.pagination li a {
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+    height: 35px;
+    line-height: 40px;
+    border: solid 1px #d4d4d4;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.pagination .active a,.pagination li a:hover{
+    color: rgb(0, 190, 130);
+    border:solid 1px  rgb(0, 190, 130);
+}
+
+.pagination li input{
+    width: 34px;
+    height: 32px;
+    vertical-align: middle;
+    /* outline: none; */
+    margin-top: 0;
+    text-align: center;
+    border: solid 1px #e4e4e4;
+    margin: 0 10px;
+}
+
 .display-inline{
     display: inline-block;
 }
@@ -170,9 +222,7 @@ ul li{
 .position-absolute {
     position: absolute;
 }
-a:hover{
-    color:rgb(0,190,130);
-}
+
 a {
     border: none;
     color: rgb(170,166,161);
