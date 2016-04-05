@@ -1,11 +1,32 @@
 /*产品采购*/
 .product-purchase .product-purchase-center-area{
-    padding: 10px 0 50px;
+    padding: 20px 0 50px;
 }
 .product-purchase .product-purchase-center-area .right-area{
-    margin-left: 300px;
+    margin-left: 305px;
 }
-
+.product-purchase .name-desc{
+    width: 285px;
+    
+    background-color: rgb(0,190,130);
+    color: white;
+    padding: 17px 0;
+    box-sizing: border-box;
+}
+.product-purchase .name-desc strong{
+    font-size:20px;
+    padding-left:20px;
+}
+.product-purchase .brand-logo{
+    background: url(../images/pingpai.png) no-repeat 0px 4px;
+    padding: 0 10px 15px 25px;
+}
+.product-purchase .hot-logo{
+     background: url(../images/hot-intro.png) no-repeat 0px 5px;
+     padding: 0 10px 15px 25px;
+  
+     margin-top: 30px;
+}
 /*最新动态*/
 .latest-news {
 
@@ -170,11 +191,16 @@
    
  }
 .trade-show-info .left-area .trade-list   img{
-   float:left;
-   width: 280px;
-   height: 160px;
-   margin-right: 15px;
-   cursor: pointer;
+   
+float:left;
+   
+width: 280px;
+   
+height: 160px;
+   
+margin-right: 15px;
+   
+cursor: pointer;
 }
 .trade-show-info .trade-list li{
     /* color: #6b6767; */
@@ -187,7 +213,7 @@
 }
 .trade-show-info .trade-list .address{
    bottom: 1px;      
-   right: 479px;
+   left: 294px;
 }
 .trade-show-info .trade-list .time{
     bottom: 19px;
