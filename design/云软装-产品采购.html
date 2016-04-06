@@ -5,7 +5,8 @@
     <title>产品采购</title>
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-
+    <script src="js/jquery-1.12.0.js" type="text/javascript"></script>
+    <script src="js/jquery.masonry.min.js" type="text/javascript"></script>
 </head>
 <body class="product-purchase">
 <!--头部登陆那条-->
@@ -151,8 +152,32 @@
             <p class="hot-logo"><span class="common-black">热门推荐</span></p>
             <ul class="hot-product clearfix">
                 <li>
-                    <a href=""><img src="images/zhanhui1.png"></a>
-                    <p><p href="" class="title">席木思棕垫席木思棕垫</p>
+                    <a href=""><img src="images/热门推荐.png"></a>
+                    <a href="" class="product-title">席木思棕垫席木思棕垫</a>
+                </li>
+                <li>
+                    <a href=""><img src="images/热门推荐.png"></a>
+                    <a href="" class="product-title">席木思棕垫席木思棕垫</a>
+                </li>
+                <li>
+                    <a href=""><img src="images/热门推荐.png"></a>
+                    <a href="" class="product-title">席木思棕垫席木思棕垫</a>
+                </li>
+                <li>
+                    <a href=""><img src="images/热门推荐.png"></a>
+                    <a href="" class="product-title">席木思棕垫席木思棕垫</a>
+                </li>
+                <li>
+                    <a href=""><img src="images/热门推荐.png"></a>
+                    <a href="" class="product-title">席木思棕垫席木思棕垫</a>
+                </li>
+                <li>
+                    <a href=""><img src="images/热门推荐.png"></a>
+                    <a href="" class="product-title">席木思棕垫席木思棕垫</a>
+                </li>
+                <li>
+                    <a href=""><img src="images/热门推荐.png"></a>
+                    <a href="" class="product-title">席木思棕垫席木思棕垫</a>
                 </li>
             </ul>
         </div>
@@ -174,6 +199,119 @@
             <li><img src="images/合作2.png"/></li>
 
         </ul>
+        <ul class="order-menu clearfix">
+            <li class="float-left active"><a href="">默认排序</a></li>
+            <li class="float-left"><a href="">最新</a></li>
+            <li class="float-left"><a href="">最热</a></li>
+            <li class="float-right"><a  class="right-move" href=""></a></li>
+            <li class="float-right active"><a  class="left-move"  href=""></a></li>
+            <li class="float-right" style="background-color: #F5F1EF;">共<span>789456</span>件商品&nbsp;&nbsp;<span class="current-page">1</span>/ <span class="total-pages">75</span></li>
+        </ul>
+        <div class="product-area">
+            <ul  class="product-list" id="product-list">
+                <li class="item position-relative">
+                    <a href="">
+                        <img src="images/瀑布产品1.png">
+                        <p class="title">席木思棕垫席木思棕垫</p>
+                    </a>
+                    <div class="product-detail">
+                        <p>席木思棕垫席木</p>
+                        <p>风格：<span>大声道</span>  颜色：<span>红</span></p>
+                        <p>商家：<span>的所发生的</span></p>
+                        <p><a href="" class="red-btn">采购</a><a href="" class="orange-btn">咨询客服</a></p>
+                    </div>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img src="images/瀑布产品2.png">
+                        <p class="title">席木思棕垫席木思棕垫</p>
+                    </a>
+                    <div class="product-detail">
+                        <p>席木思棕垫席木</p>
+                        <p>风格：<span>大声道</span>  颜色：<span>红</span></p>
+                        <p>商家：<span>的所发生的</span></p>
+                        <p><a href="" class="red-btn">采购</a><a href="" class="orange-btn">咨询客服</a></p>
+                    </div>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img src="images/瀑布产品1.png">
+                        <p class="title">席木思棕垫席木思棕垫</p>
+                    </a>
+                    <div class="product-detail">
+                        <p>席木思棕垫席木</p>
+                        <p>风格：<span>大声道</span>  颜色：<span>红</span></p>
+                        <p>商家：<span>的所发生的</span></p>
+                        <p><a href="" class="red-btn">采购</a><a href="" class="orange-btn">咨询客服</a></p>
+                    </div>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img src="images/瀑布产品2.png">
+                        <p class="title">席木思棕垫席木思棕垫</p>
+                    </a>
+                    <div class="product-detail">
+                        <p>席木思棕垫席木</p>
+                        <p>风格：<span>大声道</span>  颜色：<span>红</span></p>
+                        <p>商家：<span>的所发生的</span></p>
+                        <p><a href="" class="red-btn">采购</a><a href="" class="orange-btn">咨询客服</a></p>
+                    </div>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img src="images/瀑布产品1.png">
+                        <p class="title">席木思棕垫席木思棕垫</p>
+
+                    </a>
+                    <div class="product-detail">
+                        <p>席木思棕垫席木</p>
+                        <p>风格：<span>大声道</span>  颜色：<span>红</span></p>
+                        <p>商家：<span>的所发生的</span></p>
+                        <p><a href="" class="red-btn">采购</a><a href="" class="orange-btn">咨询客服</a></p>
+                    </div>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img src="images/瀑布产品2.png">
+                        <p class="title">席木思棕垫席木思棕垫</p>
+
+                    </a>
+                    <div class="product-detail">
+                        <p>席木思棕垫席木</p>
+                        <p>风格：<span>大声道</span>  颜色：<span>红</span></p>
+                        <p>商家：<span>的所发生的</span></p>
+                        <p><a href="" class="red-btn">采购</a><a href="" class="orange-btn">咨询客服</a></p>
+                    </div>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img src="images/瀑布产品2.png">
+                        <p class="title">席木思棕垫席木思棕垫</p>
+
+                    </a>
+                    <div class="product-detail">
+                        <p>席木思棕垫席木</p>
+                        <p>风格：<span>大声道</span>  颜色：<span>红</span></p>
+                        <p>商家：<span>的所发生的</span></p>
+                        <p><a href="" class="red-btn">采购</a><a href="" class="orange-btn">咨询客服</a></p>
+                    </div>
+                </li>
+                <li class="item position-relative">
+                    <a href="">
+                        <img src="images/瀑布产品2.png">
+                        <p class="title">席木思棕垫席木思棕垫</p>
+
+                    </a>
+                    <div class="product-detail">
+                        <p>席木思棕垫席木</p>
+                        <p>风格：<span>大声道</span>  颜色：<span>红</span></p>
+                        <p>商家：<span>的所发生的</span></p>
+                        <p><a href="" class="red-btn">采购</a><a href="" class="orange-btn">咨询客服</a></p>
+                    </div>
+            </li>
+            </ul>
+        </div>
+
     </div>
 
 </div>
@@ -254,5 +392,14 @@
 <div class="copyright text-center">
     Copyright © 2012-2016 Yunruanzhuang 深圳艺无界有限公司 ｜粤公网安备 3101100200
 </div>
+<script>
+    $(function(){
+        $('#product-list').masonry({
+            itemSelector : '.item',
+            gutterWidth:15
+        });
+    });
+</script>
+
 </body>
 </html>

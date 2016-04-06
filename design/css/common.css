@@ -86,6 +86,29 @@ ul.clearfix,p,ul,h2,ol,h3{
 .white{
     color:white;
 }
+.red-btn{
+     display: inline-block;
+     width: 85px;
+     background-color: red;
+     height: 30px;
+     line-height: 30px!important;
+     color:white!important;
+     margin:10px 20px 10px 0;
+     border-radius: 5px;
+    text-align: center;
+
+ }
+.orange-btn{
+    display: inline-block;
+    width: 85px;
+    background-color: orange;
+    height: 30px;
+    line-height: 30px!important;
+    color:white!important;
+    border-radius: 5px;
+    text-align: center;
+    margin:10px 0px 10px 0;
+}
 .cube{
     height: 4px;
     width: 4px;
@@ -754,16 +777,29 @@ a {
     clear: left;
     float: left;
     
+    width: 285px;
+    box-sizing: border-box;
 }
 .product-show .hot-product{
     border:solid 1px #e4e4e4;
+    border-bottom:none;
 
 }
+.product-show .hot-product li{
+     border-bottom:solid 1px #e4e4e4;
+     padding-bottom: 15px;
+}
+.product-show .hot-product .product-title{
+    display:block;
+    text-align:center;
+    font-size:14px;
+}
 .product-show .hot-product img{
-     width:100%;
-     height:200px;
-     text-align:center;
+     width: 250px;
+     height: 150px;
      display:block;
+     margin: 0 auto;
+     padding: 10px 0;
 }
 .product-guide{
     width: 285px;
@@ -881,7 +917,7 @@ width: 100%;
 }
  .cooperate-logo li{
     float: left;
-    width: 148px;
+    width: 149px;
     height: 67px;
     box-sizing: border-box;
     border-right: 1px solid #e4e4e4;

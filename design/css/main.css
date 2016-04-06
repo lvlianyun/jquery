@@ -27,6 +27,82 @@
   
      margin-top: 30px;
 }
+.product-purchase .order-menu{
+    border:solid 1px #e4e4e4;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    background-color: #F5F1EF;
+    opacity: 0.9;
+    border-right:none;
+}
+
+.product-purchase .order-menu .active,.product-purchase .order-menu li:hover{
+    background-color:white;
+}
+
+.product-purchase .order-menu .active a,.product-purchase .order-menu li:hover a{
+    color:black;  
+}
+ 
+.product-purchase .order-menu li{
+    border-right:solid 1px #e4e4e4;
+    padding: 0 16px;
+    color: #7D7A7A;
+}
+.product-purchase .order-menu  .left-move{
+    height: 35px;
+    width: 5px;
+    display: block;
+    background: url(../images/left-move.png) no-repeat center 13px;
+}
+.product-purchase .order-menu  .right-move{
+       display: block;
+    background: url(../images/right-move.png) no-repeat center 13px;
+       height: 35px;
+    
+       width: 6px;
+}
+.product-purchase .product-list{
+    margin-top:20px;
+}
+.product-purchase .product-list li .title{
+    position:absolute;
+    text-align:center;
+    padding: 15px 0;
+    width: 100%;
+    bottom: 0;
+    background-color: #5F5C59;
+    opacity: .8;
+    color: white;
+}
+.product-purchase .product-list li{
+    margin-bottom:20px;
+    border: solid 1px #e4e4e4;
+}
+.product-purchase .product-list li .product-detail p{
+    color:black;
+    line-height:25px;
+}
+.product-purchase .product-list li .product-detail{
+    display:none;
+    position:absolute;
+    width:100%;
+    bottom:0;
+    z-index:1000;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 13px 16px;
+    color: black!important;
+}
+.product-purchase .product-list li:hover .product-detail{
+    display:block;
+    
+    /* background-color: white; */
+}
+.product-purchase .product-list img{
+    width: 286px;
+}
 /*最新动态*/
 .latest-news {
 
