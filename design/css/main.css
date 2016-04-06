@@ -83,6 +83,7 @@
 .product-purchase .product-list li .product-detail p{
     color:black;
     line-height:25px;
+    font-size: 13px;
 }
 .product-purchase .product-list li .product-detail{
     display:none;
