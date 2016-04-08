@@ -3,7 +3,7 @@
     padding: 20px 0 50px;
 }
 .product-purchase .product-purchase-center-area .right-area{
-    margin-left: 305px;
+    margin-left: 310px;
 }
 .product-purchase .name-desc{
     width: 285px;
@@ -102,7 +102,7 @@
     /* background-color: white; */
 }
 .product-purchase .product-list img{
-    width: 286px;
+    width: 284px;
 }
 /*最新动态*/
 .latest-news {
@@ -343,4 +343,35 @@ cursor: pointer;
     line-height: 35px;
     font-size: 14px;
     color: black;
+}
+
+/*作品案例*/
+.design-case-list  .top-menu{
+   padding:10px;
+}
+
+.design-case-list  .top-menu{
+   padding:10px;
+}.design-case-list  .top-menu li{
+    float:left;
+}
+
+.design-case-list {
+
+}
+
+.design-case-list .design-case{
+    
+}
+
+.design-case-list .design-case .header-img{
+    
+}
+.design-case-list .design-case .product-name{
+
+}
+
+}
+.design-case-list .design-case .case-info{
+    
 }

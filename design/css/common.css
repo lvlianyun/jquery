@@ -11,6 +11,9 @@ html, body {
     background-color: white;
     font-size: 14px;
 }
+.orange-color{
+    color:orange;
+}
 .border-top{
     border-top: solid 1px #e4e4e4;
 }
@@ -876,7 +879,7 @@ width: 100%;
 .many-product .product .product-list .left-img img{
     overflow:hidden;
     height: 449px;
-    width: 295px;
+    width: 291px;
     box-sizing: border-box;
     border: solid 1px #e4e4e4;
 }
@@ -922,7 +925,7 @@ width: 100%;
 }
  .cooperate-logo li{
     float: left;
-    width: 149px;
+    width: 148px;
     height: 67px;
     box-sizing: border-box;
     border-right: 1px solid #e4e4e4;
