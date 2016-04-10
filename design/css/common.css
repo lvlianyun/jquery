@@ -221,7 +221,9 @@ img {
     color:rgb(0,193,130);
     background: url(../images/绿色+.png) no-repeat 11px 9px;
 }
+.orange-color{
 
+}
 .more-no-border{
     border:none;
 }
@@ -285,9 +287,8 @@ a {
     clear: both;
     visibility: hidden;
     line-height: 0;
-    height: 0;
-    font-size: 0;
-    *zoom: 1;
+    height: 1px;
+    font-size: 0;*zoom:1;
 }
 .float-left {
     float: left;
@@ -429,7 +430,7 @@ a {
  .navbar-menu li {
     float: left;
     display: block;
-    padding: 0 40px 0;
+    padding: 0 40px 0px;
     line-height: 55px;
 }
 .navbar-menu li a {

@@ -129,6 +129,9 @@
     margin-left: -9px;
     margin-top: 15px;
 }
+.latest-news .left-area .content {
+    background-color: rgb(242,240,238);
+}
 .latest-news .left-area .basic-info{
     margin: 15px 0;
 }
@@ -137,11 +140,12 @@
     padding:  0 10px 0;
 }
 .latest-news .left-area  .content .simple-desc{
-    background-color: rgb(242,241,239);
     text-indent: 64px;
     font-size: 13px;
     padding: 10px 10px;
     line-height: 25px;
+    width: 100%;
+    box-sizing: border-box;
 }
 .latest-news .left-area .logo {
     width: 670px;
@@ -346,32 +350,404 @@ cursor: pointer;
 }
 
 /*作品案例*/
-.design-case-list  .top-menu{
-   padding:10px;
-}
+
 
 .design-case-list  .top-menu{
-   padding:10px;
-}.design-case-list  .top-menu li{
+   /* border-right: solid 1px rgb(226, 222, 222); */
+   margin: 20px 0;
+   /* margin-left: -5px; */
+}
+.design-case-list  .top-menu li:hover{
+   
+    border:solid 1px rgb(30,96,115)!important;
+
+    background-color:rgb(230,248,230);
+}
+.design-case-list  .top-menu li:hover + li{
+    border-left:none;
+}
+.design-case-list  .top-menu li:hover a{
+    color:rgb(30,96,115);
+}
+.design-case-list  .top-menu li{
     float:left;
+    width: 170px;
+    font-size: 16px;
+    padding: 15px 0;
+    text-align: center;
+    border: solid 1px  rgb(226, 222, 222);
+    border-right: none;
+}
+.design-case-list  .top-menu li i{
+    display: inline-block;
+    width: 40px;
+    vertical-align: middle;
+    height: 37px;
+    background:url(../images/icon.png) no-repeat;
+    background-position: -45px -16px;
 }
 
-.design-case-list {
+.design-case-list  .top-menu .a:hover i{
+      background-position: 0 -15px;
+}
 
+.design-case-list  .top-menu .b:hover i{
+      background-position: 0px -67px;
+}
+.design-case-list  .top-menu .c:hover i{
+      background-position: -1px -182px;
+}
+.design-case-list  .top-menu .d:hover i{
+      background-position: -5px -237px;
+}
+
+.design-case-list  .top-menu .e:hover i{
+      background-position: -2px -125px;
+}
+.design-case-list  .top-menu .f:hover i{
+      background-position: -2px -352px;
+}
+
+.design-case-list  .top-menu .g:hover i{
+      background-position: 0 -295px;
+}
+
+
+
+
+.design-case-list  .top-menu .b i{
+      background-position: 0 -15px;
+}
+.design-case-list  .top-menu .c i{
+      background-position: -47px -183px;
+}
+.design-case-list  .top-menu .b i{
+      background-position: -47px -67px;
+}
+.design-case-list  .top-menu .d i{
+      background-position: -47px -236px;
+}
+.design-case-list  .top-menu .e i{
+      background-position: -47px -125px;
+}
+.design-case-list  .top-menu .f i{
+      background-position: -47px -352px;
+}
+
+.design-case-list  .top-menu .g i{
+      background-position: -38px -295px;
+}
+
+
+
+.design-case-list  .top-menu  a{
+
+margin-left: 4px;
+
+color: #797272;
 }
 
 .design-case-list .design-case{
-    
+   margin-right: -26px;
+}
+.design-case-list .design-case li  .case-img{
+    width:100%;
+    height:285px;
+}
+.design-case-list .design-case li{
+    float:left;
+    width: 280px;
+    box-sizing: border-box;
+    border: solid 1px #e4e4e4;
+    margin-right: 26px;
+    margin-bottom: 30px;
 }
 
 .design-case-list .design-case .header-img{
     
+width: 45px;
+    
+height: 45px;
+    
+left: 10px;
+    
+border-radius: 100%;
 }
 .design-case-list .design-case .product-name{
 
+    padding: 16px  0 0px 60px;
+
+    font-size: 14px;
+
+    line-height: 22px;
 }
 
+
+.design-case-list .design-case   .case-info{
+    border-top:solid 1px #e4e4e4;
+    padding-top: 10px;
+    font-size: 12px;
+    margin: 15px 16px;
 }
-.design-case-list .design-case .case-info{
+.design-case-list .design-case .case-info span{
+   margin-right: 10px;
+}
+.design-case-list .design-case .designer{
+    color:#B1A9A9;
+}
+
+
+
+/*设计案例详情动态*/
+.design-case-detail {
+
+}
+.design-case-detail .news-list li{
+    float:left;
+}
+.design-case-detail .left-area,.trade-show-info .left-area{
+    width: 850px;
+}
+
+.design-case-detail .left-area .title{
+    font-size:24px;
+    font-weight:bold;
+    color:black;
+    margin-left: -9px;
+    margin-top: 15px;
+}
+.design-case-detail .left-area .basic-info{
+    margin: 15px 0;
+    font-size:12px;
+}
+.design-case-detail .left-area .basic-info span.line{
+    margin: 0 20px;
+}
+.design-case-detail .left-area .zhaiyao{
+    top: 14px;
+    left: 12px;
+    font-size: 12px;
+}
+.design-case-detail  .left-area  .content .simple-desc{
+    box-sizing: border-box;
+    text-indent: 61px;
+    font-size: 13px;
+    padding: 10px 10px;
+    line-height: 25px;
+    width: 100%;
+}
+.design-case-detail .left-area .detail-content li{
+    text-align:center;
+}
+.design-case-detail .left-area .logo {
+    width: 720px;
+    height: 520px;
+    margin: 20px auto;
+}
+.latest-news .left-area .detail-content{
+    padding:10px 0 10px;
+}
+.design-case-detail .left-area .detail-content p{
+    font-size: 18px;
+
+    text-indent: 36px;
+    margin-bottom: 30px;
+    color: rgb(66,66,66);
+}
+.design-case-detail .left-area .friendly-link{
+    margin-top:20px;
+}
+.design-case-detail .left-area .friendly-link a:hover{
+    color:rgb(0,190,130)
+}
+.design-case-detail .left-area .news-list{
+    /* border-top: solid 1px #e4e4e4; */
+}
+.design-case-detail .left-area .news-list li{
+    width: 40%;
+    padding: 10px 50px 7px 0px;
+    font-size: 16px;
+}
+.design-case-detail .bread a:hover{
+    color: rgb(0,190,130);
+    /* padding: 0 10px; */
+}
+.design-case-detail .left-area  .bottom ul li{
+    cursor:pointer;
+}
+.design-case-detail .left-area .content {
+    background-color: rgb(242,240,238);
+}
+.design-case-detail .right-area{
+    margin-left: 880px;
+    width: 320px;
+    border: solid 1px rgb(226, 222, 222);
+    padding: 20px 0px 30px;
+}
+.design-case-detail .right-area .top-area{
+    height: 115px;
+    padding: 0 15px;
+}
+.design-case-detail  .center-area{
+    margin-bottom: 50px;
+    padding-top:30px;
+}
+.design-case-detail .right-area .top-area img{
+    width:110px;
+    height:110px;
+    position: absolute;
+    /* top: -15px; */
+}
+.design-case-detail .right-area .top-area  .designer-info{
     
+    position: absolute;
+
+    top: 0px;
+
+    padding-left: 134px;
+
+    padding-top: 10px;
+}
+.design-case-detail .right-area .top-area  .designer-info .auth-info{
+    padding: 10px 0;
+}
+.design-case-detail .right-area .top-area  .designer-info .auth-info span{
+     display:inline-block;
+     width: 82px;
+     height: 27px;
+}
+.design-case-detail .right-area .top-area  .designer-info .auth-info i{
+    background: url(../images/icon1.png)   no-repeat 0 0px;
+    display:inline-block;
+    width: 32px;
+    height: 30px;
+    vertical-align: middle;
+}
+.design-case-detail .right-area .top-area  .designer-info .auth-info .auth i{
+    background-position: -121px 3px;
+}
+.design-case-detail .right-area .top-area  .designer-info .auth-info .famous i{
+    background-position: -51px 1px;
+}
+.design-case-detail .right-area .top-area  .designer-info .location{
+    
+font-size: 14px;
+}
+.design-case-detail .right-area .top-area  .designer-info Strong{
+    font-size:24px;
+    /* margin-top: 10px; */
+}
+.design-case-detail .right-area .right-center-area {
+    padding:10px 0;
+}
+.design-case-detail .right-area .right-center-area  .order-info{
+    height: 56px;
+    border: solid 1px rgb(226, 222, 222);
+    padding: 16px 0;
+    border-left: none;
+    border-right: none;
+}
+ .design-case-detail .right-area .right-center-area  .order-info li{
+     float:left;
+     width: 102px;
+     margin:10px 0;
+     font-size: 24px;
+     color: #8E8787;
+     text-align: center;
+     border-right: solid 1px rgb(226, 222, 222);
+ }
+.design-case-detail  .design-case-show .bottom-area{
+      text-align: center;
+}
+.design-case-detail  .design-case-show .bottom-area .price{
+    font-size: 24px;
+    padding:5px 0 10px;
+ }
+ .design-case-detail  .design-case-show .bottom-area .pingjia span i{
+     display:inline-block;
+     width: 25px;
+     height: 24px;
+     vertical-align: middle;
+     background: url(../images/icon1.png)   no-repeat 0 0px;
+ }
+.design-case-detail  .design-case-show .bottom-area .pingjia span{
+    margin-right: 26px;
+}
+.design-case-detail  .design-case-show .bottom-area .pingjia .two i{
+    background-position: -31px 0;
+}
+.design-case-detail  .design-case-show .bottom-area .pingjia .three i{
+        background-position: -88px 0;
+}
+.design-case-detail  .design-case-show .bottom-area .pingjia{
+    font-size: 14px;
+    padding: 5px 10px 10px;
+    text-align: center;
+    /* margin: 0 auto; */
+ }
+
+ .design-case-detail  .design-case-show .bottom-area .preOrder{
+     display:block;
+     border:none;
+     width: 90%;
+     margin:10px auto;
+     background-color:rgb(255,153,0);
+     color:white;
+     padding: 13px 10px;
+     border-radius:4px;
+     font-size: 14px;
+     cursor: pointer;
+     outline: none;
+ }
+
+ .design-case-detail  .design-case-show .bottom-area .queryWork{
+     display:block;
+     border-radius: 4px;
+     margin: 18px auto;
+     cursor: pointer;
+     width: 90%;
+     box-sizing: border-box;
+     padding: 12px 10px;
+     border: solid 1px rgb(255,153,0);
+     background-color: white;
+     color:  rgb(255,153,0);
+     font-size: 14px;
+     outline: none;
+ }
+
+ .contact-list{
+    position: absolute;
+    width: 38px;
+    right: 0;
+    top: 33%;
+    border: solid 1px  rgb(224, 222, 220);
+    margin: 0 auto;
+}
+ .contact-list ul li a{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 39px;
+    /* padding: 10px; */
+    height: 35px;
+    background: url(../images/tools.png) no-repeat 7px 7px;
+}
+.contact-list ul li a:hover{
+   background-position-x: -43px;
+}
+
+ .contact-list ul .A a{
+   
+background-position: 7px 7px;
+}
+ .contact-list ul .B a{
+   
+background-position: 7px -30px;
+}
+ .contact-list ul .C a{
+   
+background-position: 7px -65px;
+}
+ .contact-list ul .D a{
+    background-position: 7px -109px;
+    border-top: solid 1px   rgb(224, 222, 220);
 }
