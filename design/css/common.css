@@ -10,6 +10,8 @@ html, body {
     min-width: 1200px;
     background-color: white;
     font-size: 14px;
+    width: 100%;
+    height: 100%;
 }
 .orange-color{
     color:orange;
@@ -41,10 +43,81 @@ html, body {
        right: 156px;
        top: 1px;
 }
+.maskLayer{
+    background-color:#000000;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    z-index: 1000;
+    position:fixed; 
+    top: 0px; 
+    right:0px; 
+    bottom:0px;
+}
 
+.order-form{
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    right: 126px;
+    top: 50%;
+    left: 50%;
+    margin-left: -160px;
+    margin-top: -170px;
+    border: solid 1px rgb(218, 215, 215);
+    z-index: 4444444444444;
+    width: 320px;
+    height: 340px;
+    box-shadow: 0px 2px 2px 0px;
+}
+.order-form input[type=button]{
+    width: 90%;
+    border:none;
+    height: 45px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(255,122,44);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+.order-form input[type=button]:hover{
+    background-color:rgb(249,89,57);
+}
+.order-form .desc{
+    padding: 0px 0 6px;
+}
+.order-form > div {
+    margin: 21px 15px;
+    color: black;
+    border: solid 1px #e4e4e4;
+}
+.order-form .prince-area > div{
+    display:inline-block;
+}
+.order-form .prince-input{
+    margin-right: 16px;
+}
+.order-form .prince-input,.order-form .shi-input{
+    width: 133px;
+    border: solid 1px #e4e4e4;
+    outline: none;
+    height: 36px;
+}
+
+.order-form > div input {
+    height: 31px;
+    width: 230px;
+    border: none;
+    outline: none;
+}
 .arrow-down{
     z-index: 10;
-    width: 37px;
+    width: 27px;
     background: url(../images/arrow-down.png) white no-repeat;
     position: absolute;
     height: 34px;
