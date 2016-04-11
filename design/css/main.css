@@ -855,7 +855,33 @@
     background-position: 7px -109px;
     border-top: solid 1px rgb(224, 222, 220);
 }
-.company-img img{
+/*公司简介*/
+.company-introduce .company-img img{
     width: 100%;
     height: 370px;
+}
+.company-introduce .brand {
+      padding:10px 0;
+      width: 100%;
+      text-align: right;
+}
+.company-introduce .left-menu{
+    float: left;
+
+    width: 274px;
+    border: solid 1px rgb(226, 222, 222);
+}
+.company-introduce .left-menu .menu-list{
+    padding:10px 20px;
+}
+
+.company-introduce .left-menu .aboutUs{
+    text-align:center;
+    background-color:rgb(0,130,190);
+}
+
+
+.company-introduce .right-content{
+    margin-left: 300px;
+    
 }
