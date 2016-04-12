@@ -203,6 +203,7 @@
 <div class="maskLayer position-absolute" id="popup" style="display: none">
 </div>
 <form class="order-form" style="display: none">
+    <i class="close"></i>
     <h2 class="orange">预约咨询<span>张三疯</span></h2>
     <p class="desc font-size-12">本日已有123455人</p>
     <div class="username">姓名：<input type="text" placeholder="请输入您真实姓名"/></div>
@@ -237,6 +238,12 @@
             $('body').css("overflow","hidden");
             $(".maskLayer").show();
             $(".order-form").show();
+        });
+        $(".close").click(function(){
+            $('body').scrollTop(0);
+            $('body').css("overflow","auto");
+            $(".maskLayer").hide();
+            $(".order-form").hide();
         });
     });
 
