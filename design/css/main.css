@@ -1058,20 +1058,82 @@
 .cloud-designer-page .famous-designer ul li{
     margin-bottom:30px;
 }
-.cloud-designer-page .famous-designer .odd .left-area{
+.cloud-designer-page .famous-designer .odd .left-area,.cloud-designer-page .famous-designer .even .right-area{
     width:450px;
     float:left;
-    height:565px;
-    background-color: #383c43;
+    height: 565px;
+    text-align: center;
+    background-color: rgb(56,61,67);
+}
+
+.cloud-designer-page .famous-designer .odd .left-area img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    margin-top: 80px;
+}
+
+.cloud-designer-page .famous-designer .even .right-area img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    margin-top: 80px;
+}
+
+
+
+.cloud-designer-page .famous-designer .odd .left-area h1,.cloud-designer-page .famous-designer .even .right-area h1{
+   color:white;
+}
+.cloud-designer-page .famous-designer .odd .left-area p,.cloud-designer-page .famous-designer .even .right-area p{
+   line-height:30px;
+}
+.cloud-designer-page .organge-btn{
+        width: 70%;
+        border: none;
+        height: 45px;
+        outline: none;
+        cursor: pointer;
+        background-color: rgb(254,153,0);
+        color: white;
+        font-size: 22px;
+        /* font-weight: bold; */
+        border-radius: 5px;
+        border: none;
+        margin-top: 20px;
+}
+.cloud-designer-page .organge-btn:hover{
+    background-color:rgb(249,89,57);
 }
 
 .cloud-designer-page .famous-designer .odd .right-area{
-    margin-left:450px;
-   
+    margin-left:450px;   
     height: 565px;
     background-color: #f2f0ef;
 }
 
+.cloud-designer-page .famous-designer .odd .right-area .work-menu,.cloud-designer-page .famous-designer .even .left-area .work-menu{
+    background-color:#f2f0ef;
+    width: 98px;
+    height: 90px;
+    position:absolute;
+    top: 215px;
+    left: 122px;
+    z-index: 100;
+    color: black;
+    padding: 2px 23px;
+    line-height: 27px;
+}
+.cloud-designer-page .famous-designer .odd .right-area .bottom img,.cloud-designer-page .famous-designer .even .left-area .bottom img{
+   width:100%;
+   height:350px;
+   bottom: 0px;
+   position: absolute;
+}
+
+.cloud-designer-page .famous-designer .odd .right-area .top .introduce,.cloud-designer-page .famous-designer .even .left-area .top .introduce{ 
+  padding: 54px 148px;
+}
 
 .cloud-designer-page .famous-designer .even .right-area{
     width:450px;
@@ -1083,6 +1145,8 @@
 .cloud-designer-page .famous-designer .even{
     position:relative;
 }
+
+
 .cloud-designer-page .famous-designer .even .left-area{
     padding-right: 450px;   
     height: 565px;
@@ -1091,3 +1155,16 @@
     box-sizing: border-box;
     background-color: #f2f0ef;
 }
+
+
+
+.cloud-designer-page .famous-designer i {
+    background: url(../images/icon1.png) no-repeat 0 0px;
+    display: inline-block;
+    width: 32px;
+    height: 30px;
+    vertical-align: middle;
+     background-position: -121px 3px;
+}
+
+
