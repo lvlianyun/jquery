@@ -869,19 +869,75 @@
     float: left;
 
     width: 274px;
+    margin-bottom: 35px;
     border: solid 1px rgb(226, 222, 222);
 }
 .company-introduce .left-menu .menu-list{
-    padding:10px 20px;
+    padding: 5px 0px 20px;
+}
+.company-introduce .left-menu .menu-list li{
+    margin: 13px 20px 6px;
+    padding-bottom: 6px;
+    border-bottom: solid 1px rgb(226, 222, 222);
+    background: url(../images/right_arrow_gray.png) no-repeat right 1px;
+}
+
+.company-introduce .left-menu .menu-list li:hover{
+    background: url(../images/right_arrow.png) no-repeat right 1px;
+    color:black;
 }
 
 .company-introduce .left-menu .aboutUs{
-    text-align:center;
-    background-color:rgb(0,130,190);
+    padding: 14px 20px;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(0,190,130);
 }
 
 
 .company-introduce .right-content{
     margin-left: 300px;
     
+}
+
+.company-introduce .right-content .title{
+    padding: 14px 5px 14px 0;   
+      font-size: 22px;      
+    color: black;      
+    background-color: rgb(242,240,238);
+    font-weight: bold;
+}
+
+
+.company-introduce .right-content .title p{
+     border-left: solid 4px rgb(0,190,130); 
+}
+
+.company-introduce .right-content  .big-title{
+    margin: 30px 0;
+    
+   
+}
+.company-introduce .right-content  .big-title p{    
+     border-bottom: solid 1px rgb(226, 222, 222);
+     margin-bottom: 50px;    
+     width:500px;
+     margin: 0 auto;
+     line-height:25px;
+     padding-bottom: 20px;
+}
+.company-introduce .right-content .detail-content p{
+     text-indent:30px;
+     line-height:25px;
+     margin-bottom: 11px;
+     color: #797171;
+}
+
+.company-introduce .right-content .fame li{
+    line-height: 40px;
+    font-size:14px;
+    color: #797171;
+}
+.company-introduce .right-content h2{
+    color: #797171;
 }
