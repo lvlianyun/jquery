@@ -1037,9 +1037,9 @@
 }
 .cloud-designer-page .designer-detail-guide .amount{
     font-size: 60px;
-    color: rgb(154, 150, 145);
-    left: 0px;
-    top: 41px;
+    color: rgb(0,190,130);
+    left: 16px;
+    top: 35px;
     position: absolute;
     z-index: 10;
 }
@@ -1047,9 +1047,17 @@
 .cloud-designer-page .designer-detail-guide .amount-img{
     position: absolute;
     right: 37px;
-    width: 130px;
-    height: 130px;
+    width: 109px;
+    height: 111px;
 
+}
+.cloud-designer-page .designer-detail-guide .number{
+    position:absolute;
+    
+    left: 149px;
+    top: 49px;
+    font-size: 41px;
+    color: #E0DADA;
 }
 .cloud-designer-page .famous-designer ul{
     margin:30px 0;
@@ -1168,3 +1176,23 @@
 }
 
 
+.cloud-designer-page .more-designer {
+    background-color:#e1e1e1;
+    padding: 30px 0 50px;
+}
+.cloud-designer-page .designer-list {
+    margin-top:20px;
+}
+.cloud-designer-page .more-designer .designer-list li {
+    float:left;
+}
+
+.cloud-designer-page .more-designer .designer-list li  img{
+    width:240px;
+    height:240px;
+}
+
+
+.cloud-designer-page .more-designer .designer-list  .two img{
+    width:480px;
+}
