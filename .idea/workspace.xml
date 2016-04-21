@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6baff58-c221-49e1-85de-03c6a853f2a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/images/bx_loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/images/close-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/images/controls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/css/jquery.bxslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/css/product.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/js/jquery.bxslider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/云软装-产品采购-修改.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/企业文化.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/供应商合作.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/加入我们.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/战略合作伙伴.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/联系我们.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/images/caigou-logo.png" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/close.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/.idea/workspace.xml" afterPath="$PROJECT_DIR$/design/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/css/common.css" afterPath="$PROJECT_DIR$/design/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/css/main.css" afterPath="$PROJECT_DIR$/design/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/公司简介.html" afterPath="$PROJECT_DIR$/design/公司简介.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/css/product.css" afterPath="$PROJECT_DIR$/design/css/product.css" />
     </list>
     <ignored path="jquery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,84 +27,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="云软装-产品采购.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/云软装-产品采购.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.970589">
-              <caret line="216" column="48" selection-start-line="216" selection-start-column="48" selection-end-line="216" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="设计案例_详情.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/设计案例_详情.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="云软装-产品采购-修改.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design/云软装-产品采购-修改.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20746888">
-              <caret line="92" column="113" selection-start-line="92" selection-start-column="113" selection-end-line="92" selection-end-column="113" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/css/common.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.7383177">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="close_hover.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/images/close_hover.png">
+      <file leaf-file-name="pingpai.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/images/pingpai.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="close_gray.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/images/close_gray.png">
+      <file leaf-file-name="qcode.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/images/qcode.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.bxslider.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/css/jquery.bxslider.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="21.336449">
-              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-              <folding />
-            </state>
+      <file leaf-file-name="qqshare_16_24.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/images/qqshare_16_24.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/css/product.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.6470585">
-              <caret line="128" column="26" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
-              <folding>
-                <marker date="1461240830610" expanded="true" signature="2161:2400" placeholder="{...}" />
-                <marker date="1461240830610" expanded="true" signature="2652:2657" placeholder="{...}" />
-              </folding>
-            </state>
+      <file leaf-file-name="right-move.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/images/right-move.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="right_arrow_gray.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/images/right_arrow_gray.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s_gallery_2012110702.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/images/s_gallery_2012110702.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="small-product.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/images/small-product.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tools.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/images/tools.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_operate.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/images/user_operate.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="亮色关注.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/design/images/亮色关注.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -375,11 +350,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -411,64 +386,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movie/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/images/经典设计.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/images/经典设计1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/images/经典设计2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/images/经典设计3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/images/经典设计4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/images/经典设计5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/播放器页面.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="76" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/js/jquery-1.12.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reg.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="11.029411">
@@ -503,11 +420,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/design/images/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/images/tools.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -708,22 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/云软装-产品采购.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.970589">
-          <caret line="216" column="48" selection-start-line="216" selection-start-column="48" selection-end-line="216" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/设计案例_详情.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design/css/jquery.bxslider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="21.336449">
@@ -745,10 +641,10 @@
     <entry file="file://$PROJECT_DIR$/design/css/product.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.6470585">
-          <caret line="128" column="26" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
+          <caret line="127" column="26" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
           <folding>
-            <marker date="1461240830610" expanded="true" signature="2161:2400" placeholder="{...}" />
-            <marker date="1461240830610" expanded="true" signature="2652:2657" placeholder="{...}" />
+            <marker date="1461241013559" expanded="true" signature="2121:2360" placeholder="{...}" />
+            <marker date="1461241013559" expanded="true" signature="2612:2617" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -757,13 +653,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.7383177">
           <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
+          <folding>
+            <marker date="1461241084263" expanded="true" signature="3374:3409" placeholder="{...}" />
+            <marker date="1461241084263" expanded="true" signature="3676:3865" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/design/云软装-产品采购-修改.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20746888">
+        <state vertical-scroll-proportion="-2.3364487">
           <caret line="92" column="113" selection-start-line="92" selection-start-column="113" selection-end-line="92" selection-end-column="113" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -771,6 +670,92 @@
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/设计案例_详情.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/云软装-产品采购.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.970589">
+          <caret line="216" column="48" selection-start-line="216" selection-start-column="48" selection-end-line="216" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/images/icon_wx_24.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/images/n.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/images/news-logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/images/pingpai.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/images/qcode.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/images/qqshare_16_24.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/images/right-move.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/images/right_arrow_gray.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/images/s_gallery_2012110702.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/images/small-product.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/images/tools.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/images/user_operate.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/images/亮色关注.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

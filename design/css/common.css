@@ -189,19 +189,19 @@ ul.clearfix,p,ul,h2,ol,h3{
 }
 .red-btn{
      display: inline-block;
-     width: 85px;
+     padding: 0 15px;
      background-color: red;
      height: 30px;
      line-height: 30px!important;
      color:white!important;
-     margin:10px 20px 10px 0;
+     margin: 10px 11px 10px 0;
      border-radius: 5px;
     text-align: center;
 
  }
 .orange-btn{
     display: inline-block;
-    width: 85px;
+    padding: 0 10px;
     background-color: orange;
     height: 30px;
     line-height: 30px!important;
