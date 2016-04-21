@@ -882,7 +882,7 @@
     background: url(../images/right_arrow_gray.png) no-repeat right 1px;
 }
 
-.company-introduce .left-menu .menu-list li:hover{
+.company-introduce .left-menu .menu-list li:hover ,.company-introduce .left-menu .menu-list .active{
     background: url(../images/right_arrow.png) no-repeat right 1px;
     color:black;
 }

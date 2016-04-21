@@ -16,6 +16,15 @@ html, body {
 .font-size-30{
     font-size: 30px;
 }
+.bg-green{
+    background-color: rgb(0,190,130);
+}
+.bg-gray{
+    background-color: #afafaf;
+}
+.bg-blue{
+    background-color: #a6b7d0;
+}
 .orange-color{
     color:orange;
 }
@@ -76,7 +85,8 @@ html, body {
     box-shadow: 0px 2px 2px 0px;
 }
 
-.order-form .close{
+
+ .close{
    display:inline-block;
    width:30px;
    float: right;
@@ -84,7 +94,7 @@ html, body {
    background:url(../images/close_gray.png) no-repeat center center;
 }
 
-.order-form .close:hover{
+ .close:hover{
     background:url(../images/close_hover.png) no-repeat center center;
 }
 .order-form input[type=button]{
@@ -362,15 +372,15 @@ a {
     color: rgb(0,193,130);
 }
 .gray-color{
-    color:rgb(170,166,161);
+    color: rgb(170,166,161)!important;
 }
 .common-font-color{
     color:#6B6767;
 }
 .d-center-all {
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto!important;
+    margin-right: auto!important;
     /* margin-bottom: 45px; */
 }
 .clearfix:after {
