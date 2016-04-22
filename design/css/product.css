@@ -135,3 +135,83 @@
     margin-right: 37px;
     border-radius: 5px;
 }
+.product-purchase-detail .center-area{
+    padding: 25px 0 50px;
+}
+.product-purchase-detail .left-area{
+    width: 354px;
+
+}
+.product-purchase-detail .title{
+    color:black;
+    font-size: 26px;
+    font-weight: bold;
+}
+.product-purchase-detail .product-info{
+    border-top:solid 1px #e4e4e4;
+    border-bottom:solid 1px #e4e4e4;
+    padding:10px 0;
+    margin-bottom: 10px;
+}
+.product-purchase-detail .right-area .bread a{
+    color: rgba(0, 0, 0, 0.45);
+    padding:0 10px;
+}
+.product-purchase-detail .price{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-purchase-detail .right-area .bread a:hover{
+    color: rgb(0,190,130);
+}
+.product-purchase-detail .detail-content{
+    margin-top: 15px;
+}
+.product-purchase-detail .left-area .box-content{
+    border: solid 1px #e4e4e4;
+    padding: 20px 20px;
+    color: #545151;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+.product-purchase-detail .left-area .box-content ul li{
+    line-height: 27px;
+}
+.product-purchase-detail .right-area img{
+    box-sizing: border-box;
+    width: 100%;
+
+    height: 710px;
+}
+.product-purchase-detail .right-area{
+    margin-left: 370px;
+
+}
+.product-purchase-detail input[type=button]{
+    border: solid 1px #e4e4e4;
+    outline: none;
+    height: 50px;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.product-purchase-detail .purchase-btn{
+    color:white;
+    width: 200px;
+    margin-right:10px;
+    background: url(../images/daicaigou.png) #f95839 50px center no-repeat;
+}
+.product-purchase-detail .ask-btn{
+    background-color: #ffe4d0;
+    color:#f95839;
+    width: 140px;
+}
+.product-purchase-detail .desc{
+    margin:20px 0;
+}
+.product-purchase-detail .desc p{
+     line-height: 25px;
+}
