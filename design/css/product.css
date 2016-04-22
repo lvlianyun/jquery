@@ -165,13 +165,13 @@
     color: rgb(0,190,130);
 }
 .product-purchase-detail .detail-content{
-    margin-top: 15px;
+    margin-top: 26px;
 }
 .product-purchase-detail .left-area .box-content{
     border: solid 1px #e4e4e4;
     padding: 20px 20px;
     color: #545151;
-    font-size: 16px;
+    margin-top: 10px;
     border-radius: 5px;
     margin-bottom: 22px;
 }
@@ -211,6 +211,7 @@
 }
 .product-purchase-detail .desc{
     margin:20px 0;
+    color: #545151;
 }
 .product-purchase-detail .desc p{
      line-height: 25px;

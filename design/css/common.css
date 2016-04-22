@@ -381,7 +381,6 @@ a {
     width: 1200px;
     margin-left: auto!important;
     margin-right: auto!important;
-    /* margin-bottom: 45px; */
 }
 .clearfix:after {
     content: "";
