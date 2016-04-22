@@ -877,6 +877,7 @@
     padding: 5px 0px 20px;
 }
 .company-introduce .left-menu .menu-list li{
+    cursor: pointer;
     margin: 13px 20px 6px;
     padding-bottom: 6px;
     border-bottom: solid 1px rgb(226, 222, 222);
@@ -932,7 +933,7 @@
     /* margin-top:20px; */
 }
 .company-introduce .right-content h2{
-    color: #797171;
+    color: white;
 }
 .team-introduct .team-list{
     margin-right:-20px;
@@ -968,6 +969,76 @@
 .team-introduct .team-list img{
     width: 210px;
     height: 280px;
+}
+.company-culture .brand-concept p{
+    font-size:20px;
+    margin-top:10px;
+
+}
+.company-culture .brand-concept{
+    margin-top:20px;
+    background-color: rgb(0,190,130);
+    height: 111px;
+    text-align: center;
+    color:white;
+    width: 100%;
+    padding: 50px 0 0;
+}
+.company-culture .brand-motto{
+   height: 50px;
+   padding-top: 20px;
+   line-height: 25px;
+   padding-bottom: 20px;
+   border-bottom: solid 1px #e4e4e4;
+}
+.company-culture .brand-motto li{
+    width: 40%;
+    float: left;
+    color:gray;
+}
+.company-culture .desc{
+    font-size: 20px;
+    color:gray;
+}
+.company-culture .brand-mission{
+    padding: 20px 0;
+
+    padding-bottom: 20px;      
+    margin-bottom: 25px;
+    line-height: 30px;
+    border-bottom: solid 1px #e4e4e4;
+}
+.company-culture .brand-vision{
+    line-height: 30px;
+
+}
+.company-culture .company-culture-content{
+    margin-bottom: 80px;
+}
+.join-us  .header{
+    float: left;
+    width: 55px!important;
+    height: 55px;
+    border-radius: 50%;
+}
+.join-us .advice{
+    margin-left: 60px;
+
+    padding-top: 10px;
+}
+.join-us .employ-requirement{
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+.join-us .employ-requirement li{
+    line-height: 34px;
+    color: #827D7D;
+}
+.join-us   .top{
+    height: 60px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: dashed 1px #e4e4e4;
 }
 .cloud-designer-page {
 
