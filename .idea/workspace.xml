@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e6baff58-c221-49e1-85de-03c6a853f2a1" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/close.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/css/common.css" afterPath="$PROJECT_DIR$/design/css/common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/css/main.css" afterPath="$PROJECT_DIR$/design/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/企业文化.html" afterPath="$PROJECT_DIR$/design/企业文化.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/公司简介.html" afterPath="$PROJECT_DIR$/design/公司简介.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/供应商合作.html" afterPath="$PROJECT_DIR$/design/供应商合作.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/加入我们.html" afterPath="$PROJECT_DIR$/design/加入我们.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/团队介绍.html" afterPath="$PROJECT_DIR$/design/团队介绍.html" />
     </list>
     <ignored path="jquery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,19 +29,64 @@
       <file leaf-file-name="加入我们.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/design/加入我们.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.5588236">
-              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+            <state vertical-scroll-proportion="-5.882353">
+              <caret line="86" column="59" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="团队介绍.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/团队介绍.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/design/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5045045">
-              <caret line="1034" column="18" selection-start-line="1034" selection-start-column="18" selection-end-line="1034" selection-end-column="18" />
+            <state vertical-scroll-proportion="-14.8529415">
+              <caret line="1063" column="0" selection-start-line="1063" selection-start-column="0" selection-end-line="1063" selection-end-column="0" />
+              <folding>
+                <marker date="1461328671367" expanded="true" signature="21092:21116" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="供应商合作.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/design/供应商合作.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.52845526">
+              <caret line="117" column="61" selection-start-line="117" selection-start-column="61" selection-end-line="117" selection-end-column="61" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="企业文化.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/企业文化.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-48.52941">
+              <caret line="66" column="38" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="公司简介.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/公司简介.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.7352941">
+              <caret line="68" column="38" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="38" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,7 +120,6 @@
         <option value="$PROJECT_DIR$/design/展会信息和软装动态合并版.html" />
         <option value="$PROJECT_DIR$/design/设计案例.html" />
         <option value="$PROJECT_DIR$/design/云软装-云设计师.html" />
-        <option value="$PROJECT_DIR$/design/供应商合作.html" />
         <option value="$PROJECT_DIR$/design/战略合作伙伴.html" />
         <option value="$PROJECT_DIR$/design/联系我们.html" />
         <option value="$PROJECT_DIR$/design/css/jquery.bxslider.css" />
@@ -90,6 +131,7 @@
         <option value="$PROJECT_DIR$/design/团队介绍.html" />
         <option value="$PROJECT_DIR$/design/企业文化.html" />
         <option value="$PROJECT_DIR$/design/加入我们.html" />
+        <option value="$PROJECT_DIR$/design/供应商合作.html" />
         <option value="$PROJECT_DIR$/design/css/main.css" />
       </list>
     </option>
@@ -272,7 +314,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24790357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -395,13 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7352941">
           <caret line="222" column="29" selection-start-line="222" selection-start-column="20" selection-end-line="222" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/供应商合作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.029411">
-          <caret line="78" column="25" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -615,17 +650,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/团队介绍.html">
+    <entry file="file://$PROJECT_DIR$/design/企业文化.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="12.205882">
-          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+        <state vertical-scroll-proportion="-48.52941">
+          <caret line="66" column="38" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/design/公司简介.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.558824">
+        <state vertical-scroll-proportion="-0.7352941">
           <caret line="68" column="38" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="38" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -634,26 +669,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/企业文化.html">
+    <entry file="file://$PROJECT_DIR$/design/团队介绍.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.941177">
-          <caret line="95" column="94" selection-start-line="95" selection-start-column="94" selection-end-line="95" selection-end-column="94" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/design/加入我们.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.5588236">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        <state vertical-scroll-proportion="-5.882353">
+          <caret line="86" column="59" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/design/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5045045">
-          <caret line="1034" column="18" selection-start-line="1034" selection-start-column="18" selection-end-line="1034" selection-end-column="18" />
+        <state vertical-scroll-proportion="-14.8529415">
+          <caret line="1063" column="0" selection-start-line="1063" selection-start-column="0" selection-end-line="1063" selection-end-column="0" />
+          <folding>
+            <marker date="1461328671367" expanded="true" signature="21092:21116" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/供应商合作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52845526">
+          <caret line="117" column="61" selection-start-line="117" selection-start-column="61" selection-end-line="117" selection-end-column="61" />
           <folding />
         </state>
       </provider>

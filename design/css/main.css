@@ -1040,6 +1040,29 @@
     padding-bottom: 15px;
     border-bottom: dashed 1px #e4e4e4;
 }
+.supplier-cooperation .coop-list li{
+    position: relative;
+    padding:20px 0;
+}
+.supplier-cooperation .coop-list li .circle{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: rgb(0,190,130);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.supplier-cooperation .coop-list li   .content{
+    margin-left:50px;
+    line-height: 20px;
+}
+.supplier-cooperation .coop-list{
+    margin-bottom: 80px;
+
+}
 .cloud-designer-page {
 
  }
