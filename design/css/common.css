@@ -176,6 +176,9 @@ html, body {
     padding-right:10px;
     padding-left:10px;
 }
+.bold{
+    font-weight: bold;
+}
 .padd-top10{
     padding-top:10px;
 }

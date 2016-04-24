@@ -944,6 +944,7 @@
     float: left;
     margin-right:20px;
     position: relative;
+    margin-bottom: 20px;
 }
 .team-introduct .team-list li:hover .team-maskLayer{
    display: block;
@@ -969,6 +970,9 @@
 .team-introduct .team-list img{
     width: 210px;
     height: 280px;
+}
+.team-introduct .motto{
+    padding-top:5px;
 }
 .company-culture .brand-concept p{
     font-size:20px;
@@ -1014,6 +1018,37 @@
 }
 .company-culture .company-culture-content{
     margin-bottom: 80px;
+}
+.strategic-partner .desc{
+text-align: center;
+font-size: 14px;
+color: #B7B6B6;
+}
+.strategic-partner .right-content{
+    
+}
+.strategic-partner .right-content li{
+  display: inline-block;
+  margin: 20px 24px 20px 0;
+}
+.strategic-partner .right-content li > div{
+    padding: 30px 27px;
+    border: solid 1px #e4e4e4;
+    text-align: center;
+}
+.strategic-partner .right-content li .name-desc{
+    text-align:center;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.strategic-partner .one li img,.strategic-partner .two li img,.strategic-partner .three li img{
+   width: 100px;
+}
+.strategic-partner .two{
+/* margin-right: -28px; */
+}
+.strategic-partner .three{
+
 }
 .join-us  .header{
     float: left;
@@ -1062,6 +1097,10 @@
 .supplier-cooperation .coop-list{
     margin-bottom: 80px;
 
+}
+.contact-us .right-content ul li{
+    line-height: 22px;
+    color: #948989;
 }
 .cloud-designer-page {
 
