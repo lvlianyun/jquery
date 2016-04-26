@@ -284,7 +284,9 @@ img {
     border: solid 1px #e4e4e4;
     margin: 0 11px;
 }
-
+.no-border{
+    border: none!important;
+}
 .display-inline{
     display: inline-block;
 }
@@ -417,7 +419,7 @@ a {
     border: solid 1px rgb(218, 215, 215);
     z-index: 100;
     width: 320px;
-    height: 340px;
+    /* height: 340px; */
     box-shadow: 0px 2px 2px 0px;
 }
 .login-form input[type=button]{
@@ -450,9 +452,10 @@ a {
 
 .login-form > div input {
     height: 31px;
-    width: 230px;
+    width: 211px;
     border: none;
     outline: none;
+    padding-left: 10px;
 }
 .nav {
     margin-bottom: 0;
