@@ -42,6 +42,68 @@
     height:610px;
 }
 .login-page{
-    right: 417px;
+    right: 348px;
     top: 253px;
+}
+.register .title{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.register .register-area{
+    height: 540px;
+     
+    padding: 50px 0;
+    background-color:#ebebeb;
+}
+.register .register-area .content{
+    background-color:white;
+    height: 100%;
+   
+}
+.register .guide-index{
+    background: url("../images/register-img.png") no-repeat center;
+}
+.register .guide-index-one{
+    background-position: 52px -3px;
+    height: 108px;
+}
+
+.register .guide-index-two{
+    background-position: 52px -87px;
+    height: 108px;
+}
+.register .register-form{
+    width: 302px;
+    text-align:  center;
+    margin: 0 auto;
+}
+.register .register-form input[type=text]{
+     width: 100%;
+     border:solid 1px #e4e4e4;
+     height: 38px;
+     outline:none;
+     margin:10px 0;
+    
+     padding-left: 10px;
+     box-sizing: border-box;
+
+}
+.register .register-form .label-name{
+    text-align: left;
+    padding: 12px 0 0px 0px;
+    font-size: 12px;
+    color: gray;
+}
+.register .register-form-two{
+      width: 436px;
+      margin:0 auto;
+      text-align: center;
+      font-size: 14px;
+      line-height: 34px;
+}
+.register .register-form-two  .title{
+    background: url(../images/success-logo.png) 50px 0 no-repeat;
 }

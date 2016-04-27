@@ -307,6 +307,19 @@ img {
 .border-none:hover{
     background: url(../images/绿色+.png) no-repeat 11px 5px!important;
 }
+.common-btn{
+    cursor:pointer;
+    background-color: #ff9900;
+    color:white;
+    font-size: 18px;
+    width: 100%;
+    border:solid 1px #e4e4e4;
+    border-radius: 5px;
+    padding:10px 0;
+    outline: none;
+    margin-top: 30px;
+    font-weight: bold;
+}
 .common-black{
     font-size: 20px;
     color: black;
@@ -437,6 +450,7 @@ a {
     padding: 0px 0 6px;
 }
 .login-form > div {
+    /* margin-left: 10px; */
     margin: 21px 15px;
     border: solid 1px #e4e4e4;
 }
@@ -455,8 +469,8 @@ a {
     width: 211px;
     border: none;
     outline: none;
-    padding-left: 10px;
-}
+    /* margin-left: 12px; */
+    padding-left:12px}
 .nav {
     margin-bottom: 0;
     padding-left: 0;
