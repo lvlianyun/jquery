@@ -64,16 +64,18 @@
    
 }
 .register .guide-index{
+    height: 108px;
     background: url("../images/register-img.png") no-repeat center;
 }
 .register .guide-index-one{
     background-position: 52px -3px;
-    height: 108px;
-}
 
+}
 .register .guide-index-two{
     background-position: 52px -87px;
-    height: 108px;
+}
+.register .guide-index-three{
+    background-position: 52px -429px;
 }
 .register .register-form{
     width: 302px;
@@ -104,6 +106,11 @@
       font-size: 14px;
       line-height: 34px;
 }
+
 .register .register-form-two  .title{
     background: url(../images/success-logo.png) 50px 0 no-repeat;
+}
+.register .register-form-three{
+    width:305px;
+    margin: 0 auto;
 }
