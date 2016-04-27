@@ -114,3 +114,6 @@
     width:305px;
     margin: 0 auto;
 }
+.register .register-form input:focus{
+    border:solid 1px #14b48b;
+}
