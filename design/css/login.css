@@ -50,7 +50,7 @@
     font-size: 24px;
     color: black;
     font-weight: bold;
-    margin: 30px 0;
+    margin: 40px 0 30px;
 }
 .register .register-area{
     height: 540px;
@@ -75,23 +75,33 @@
     background-position: 52px -87px;
 }
 .register .guide-index-three{
-    background-position: 52px -429px;
+    background-position: 52px -438px;
 }
 .register .register-form{
     width: 302px;
     text-align:  center;
     margin: 0 auto;
 }
-.register .register-form input[type=text]{
+.register .register-form input[type=text],.register .register-form select{
      width: 100%;
      border:solid 1px #e4e4e4;
      height: 38px;
      outline:none;
-     margin:10px 0;
-    
+     margin: 10px 0 3px;    
      padding-left: 10px;
      box-sizing: border-box;
 
+}
+.register .register-form .select-input i{
+     z-index: 1;
+     position: absolute;
+     background: url(../images/select-bg.png) #ebebeb  no-repeat right center;
+     display: inline-block;
+     right: 1px;
+     bottom: 4px;
+     width: 40px;
+     height: 36px;
+     border-left: solid 1px #e4e4e4;
 }
 .register .register-form .label-name{
     text-align: left;
@@ -116,4 +126,22 @@
 }
 .register .register-form input:focus{
     border:solid 1px #14b48b;
+}
+.register .register-form .select{
+    cursor: pointer;
+    line-height: 30px;
+    display: none;
+    position: absolute;
+    top: 48px;
+    width: 100%;
+    z-index: 100;
+    text-align: left;
+    padding: 0   0 0 11px;
+    border: solid 1px #e4e4e4;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.register .register-form .select p{
+    /* border-bottom:solid 1px #e4e4e4; */
 }
