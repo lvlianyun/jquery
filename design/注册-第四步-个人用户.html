@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册第三步</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script src="js/jquery-1.12.0.js" type="text/javascript"></script>
+</head>
+<body class="login register ">
+<div class="login-header d-center-all">
+    <img   src="images/login-logo.png"  class="margin-right-10"/>
+    <span style="font-size: 30px;color:black">用户注册</span>
+    <p class="phone">咨询热线：4008360881</p>
+</div>
+<div class="register-area register-four">
+    <div class="content d-center-all ">
+         <div class="guide-index guide-index-four"></div>
+        <form class="register-form register-form-four text-center">
+            <p class="label-name">手机号</p>
+            <input type="text" placeholder="请输入手机号" />
+            <p class="label-name">登录密码</p>
+            <input type="text" placeholder="请输入登录密码" />
+            <p class="label-name">确认密码</p>
+            <input type="text" placeholder="请输入再次输入密码" />
+            <p class="label-name">验证码</p>
+            <div class="check-code"><input type="text" placeholder="请输入验证码" />  <input type="button" class="common-btn green-btn" value="获取验证码"></div>
+            <p class="agree">注册即同意《艺无界用户服务协议》</p>
+            <input type="button" class="common-btn" value="注册">
+        </form>
+    </div>
+</div>
+<div class="bottom text-center">
+    <p class=""><a href="">用户指南 </a> | <a href="">  软装服务 </a>  |   <a href="">交易保障 </a>  |   <a href="">关于云软装  </a> |   <a href="">联系我们  </a> </p>
+   <p> Copyright © 2012-2016 Yunruanzhuang 深圳艺无界有限公司 | 广东岭美文化艺术交流有限公司©版权所有 </p>
+</div>
+<script type="text/javascript">
+    $(function(){
+        $(".agree").on('click',function(event){
+            $(this).toggleClass("no-agree");
+        });
+    });
+
+</script>
+</body>
+
+</html>

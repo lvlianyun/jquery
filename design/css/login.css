@@ -33,6 +33,9 @@
       font-size: 13px;
       line-height: 26px;
 }
+.login .bottom a:hover {
+    color:rgb(0,190,130);
+}
 .login .bottom a {
       color: #4A3F3F;
       font-size: 13px;
@@ -77,6 +80,9 @@
 .register .guide-index-three{
     background-position: 52px -438px;
 }
+.register .guide-index-four{
+     background-position: 52px -297px;
+}
 .register .register-form{
     width: 302px;
     text-align:  center;
@@ -85,7 +91,7 @@
 .register .register-form input[type=text],.register .register-form select{
      width: 100%;
      border:solid 1px #e4e4e4;
-     height: 38px;
+     height: 41px;
      outline:none;
      margin: 10px 0 3px;    
      padding-left: 10px;
@@ -105,7 +111,7 @@
 }
 .register .register-form .label-name{
     text-align: left;
-    padding: 12px 0 0px 0px;
+    padding: 12px 0 0px 1px;
     font-size: 12px;
     color: gray;
 }
@@ -124,7 +130,7 @@
     width:305px;
     margin: 0 auto;
 }
-.register .register-form input:focus{
+.register .register-form input[type=text]:focus{
     border:solid 1px #14b48b;
 }
 .register .register-form .select{
@@ -142,6 +148,29 @@
     box-sizing: border-box;
 }
 
-.register .register-form .select p{
-    /* border-bottom:solid 1px #e4e4e4; */
+.register .register-four{
+      height: 590px;
+}
+.register .register-four .agree{
+    margin-top: 20px;
+    background: url(../images/agree.png)  no-repeat;
+    height: 18px;
+    line-height: 23px;
+    background-position: 0 0;
+    text-align: left;
+    padding-left: 24px;
+    color: gray;
+}
+.register .register-four  .no-agree{
+    background-position: 0 -20px;
+}
+.register .register-four .check-code  input{
+    width: 149px;
+}
+.register .green-btn{
+    margin-top: 0;
+    font-weight: 100;
+    border-radius: 0;
+    border: none;
+    background-color: rgb(0,190,130);
 }
