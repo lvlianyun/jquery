@@ -83,6 +83,9 @@
 .register .guide-index-four{
      background-position: 52px -297px;
 }
+.register  .guide-index-five{
+    background-position: 52px -179px;
+}
 .register .register-form{
     width: 302px;
     text-align:  center;
@@ -93,6 +96,7 @@
      border:solid 1px #e4e4e4;
      height: 41px;
      outline:none;
+     line-height: 41px;
      margin: 10px 0 3px;    
      padding-left: 10px;
      box-sizing: border-box;
@@ -106,7 +110,7 @@
      right: 1px;
      bottom: 4px;
      width: 40px;
-     height: 36px;
+     height: 39px;
      border-left: solid 1px #e4e4e4;
 }
 .register .register-form .label-name{
@@ -138,7 +142,7 @@
     line-height: 30px;
     display: none;
     position: absolute;
-    top: 48px;
+    top: 51px;
     width: 100%;
     z-index: 100;
     text-align: left;
@@ -151,7 +155,7 @@
 .register .register-four{
       height: 590px;
 }
-.register .register-four .agree{
+.register  .agree{
     margin-top: 20px;
     background: url(../images/agree.png)  no-repeat;
     height: 18px;
@@ -161,7 +165,7 @@
     padding-left: 24px;
     color: gray;
 }
-.register .register-four  .no-agree{
+.register   .no-agree{
     background-position: 0 -20px;
 }
 .register .register-four .check-code  input{
@@ -173,4 +177,13 @@
     border-radius: 0;
     border: none;
     background-color: rgb(0,190,130);
+}
+
+.register .register-form-five{
+    width: 701px;
+}
+.register .register-form-five > div{
+    width: 266px;
+    display: inline-block;
+    padding: 0 41px 0 0;
 }
