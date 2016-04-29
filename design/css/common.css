@@ -290,6 +290,9 @@ img {
 .display-inline{
     display: inline-block;
 }
+.display-none{
+    display:none;
+}
 .display-block{
     display:block;
 }

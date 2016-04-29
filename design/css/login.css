@@ -43,6 +43,7 @@
 .login .banner .content img{
     width:100%;
     height:610px;
+    position: absolute;
 }
 .login-page{
     right: 348px;
@@ -186,4 +187,10 @@
     width: 266px;
     display: inline-block;
     padding: 0 41px 0 0;
+}
+.register .login-fast{
+    border:solid 1px rgb(0,190,130);
+    color: rgb(0,190,130);
+    padding: 4px 12px;
+    border-radius: 5px;
 }

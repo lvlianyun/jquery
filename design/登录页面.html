@@ -26,8 +26,10 @@
             <p class="float-right"><a href=""><img src="images/webo.png">&nbsp;&nbsp;&nbsp;微博登录</a></p>
         </div>
     </form>
-    <div class="content">
-        <img id="login-logo" src="images/login-bg1.png">
+    <div class="content clearfix" style="height: 610px">
+        <img class="login-logo" id="login-logo1" src="images/login-bg1.png">
+        <img class="login-logo display-none" id="login-logo2" src="images/banner.png">
+        <img class="login-logo display-none" id="login-logo3" src="images/login-bg1.png">
     </div>
 </div>
 
@@ -43,10 +45,12 @@
          var index=0;
           window.setInterval(function(){
               index++;
-              $("#login-logo").attr("src",array[index]);
-              if(index>=2){
-                  index=0;
-              }
+              $(".login-logo").fadeOut(3500,function(){
+                  $(".login-logo").eq(index).fadeIn(3500);
+                  if(index>=2){
+                      index=0;
+                  }
+              });
           },10000);
     });
 
