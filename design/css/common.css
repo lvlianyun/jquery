@@ -628,7 +628,7 @@ a {
     width: 264px;
     outline: none;
     border: none;
-    border-left: solid 1px #F3EEEE;
+    /* border-left: solid 1px #F3EEEE; */
     padding-left: 10px;
     height: 96%;
     /* line-height: 35px; */
