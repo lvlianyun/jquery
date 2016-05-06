@@ -516,7 +516,7 @@ a {
     background: url(../images/网站导航.png) no-repeat no-repeat left center;
 }
 .navbar ul li:not(:first-child) {
-    margin-left: 26px;
+    /* margin-left: 26px; */
 }
 .navbar > div{
     display: inline-block;
@@ -623,15 +623,17 @@ a {
      margin-right: 10px;
  }
 .navbar .search-input{
-    float: left;
-    width: 299px;
+    position: absolute;
+    top: 0;
+    width: 264px;
     outline: none;
     border: none;
     border-left: solid 1px #F3EEEE;
     padding-left: 10px;
-    height: 36px;
-    line-height: 35px;
+    height: 96%;
+    /* line-height: 35px; */
     /* border: solid; */
+    display: inline-block;
 }
 .banner {
 }

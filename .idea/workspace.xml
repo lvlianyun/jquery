@@ -2,626 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6baff58-c221-49e1-85de-03c6a853f2a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/AddExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/AddExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/AddExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/AssignmentOperatorsExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/BitwiseAndExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/BitwiseNotExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/BitwiseOrExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/BitwiseXorExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/BooleanExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/BooleanExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/BreakStatementExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/BreakStatementExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/ConditionalOperatorExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/ContinueStatementExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/ContinueStatementExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/DivideExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/DoWhileStatementExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/EqualityOperatorsExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/EqualityOperatorsExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/EqualityOperatorsExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/ForInStatementExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/ForStatementExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/ForStatementExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/ForStatementExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/ForStatementExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/FunctionExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/FunctionExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/FunctionExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/FunctionExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/FunctionExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/FunctionExample6.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/FunctionExample7.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/FunctionExample8.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/FunctionExample9.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/IfStatementExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/IfStatementExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/IncrementDecrementExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/IncrementDecrementExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/IncrementDecrementExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/IncrementDecrementExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/LeftShiftExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/LogicalAndExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/LogicalAndExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/LogicalNotExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/LogicalNotExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/LogicalOrExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/LogicalOrExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/ModulusExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/MultiplyExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/NullExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/NullExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/NumberExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/NumberExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/NumberExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/NumberExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/NumberExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/NumberExample6.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/NumberExample7.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/NumberExample8.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/NumberExample9.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/RelationalOperatorsExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/SignedRightShiftExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/SignedRightShiftExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/StringExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/StringExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/StringExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/SubtractExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/SwitchStatementExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/SwitchStatementExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/SwitchStatementExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/SwitchStatementExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/TypeofExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/UnaryPlusMinusExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/UnaryPlusMinusExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/UndefinedExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/UndefinedExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/UndefinedExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/UndefinedExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/UnsignedRightShiftExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/UnsignedRightShiftExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/WhileStatementExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch03/WithStatementExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch04/_Ch04/DeterminingTypeExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch04/_Ch04/DynamicPropertiesExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch04/_Ch04/DynamicPropertiesExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch04/_Ch04/ExecutionContextExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch04/_Ch04/ExecutionContextExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch04/_Ch04/ExecutionContextExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch04/_Ch04/ExecutionContextExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch04/_Ch04/ExecutionContextExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch04/_Ch04/ExecutionContextExample6.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch04/_Ch04/ExecutionContextExample7.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch04/_Ch04/FunctionArgumentsExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch04/_Ch04/FunctionArgumentsExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeConcatExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample10.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample11.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample12.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample13.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample14.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample15.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample16.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample6.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample7.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample8.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeExample9.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeJoinExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeSliceExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ArrayTypeSpliceExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/BooleanTypeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/DateTypeConstructorExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/DateTypeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/DateTypeUTCExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/DateTypeValueOfExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/FunctionAsAnArgumentExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/FunctionDeclarationExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/FunctionInitializationExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/FunctionReturningFunctionExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/FunctionTypeApplyMethodExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/FunctionTypeArgumentsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/FunctionTypeCallExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/FunctionTypeCallMethodExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/FunctionTypeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/FunctionTypeLengthPropertyExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/FunctionTypeThisExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/GlobalObjectURIDecodingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/GlobalObjectURIEncodingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/GlobalObjectWindowExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/MathObjectMinMaxExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/MathObjectRandomExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/MathObjectRandomExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/MathObjectRandomExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/MathObjectRoundingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/NumberTypeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ObjectTypeExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ObjectTypeExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ObjectTypeExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ObjectTypeExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/PrimitiveWrapperTypesExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/ReferenceTypeExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/RegExpConstructorPropertiesExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/RegExpConstructorPropertiesExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/RegExpConstructorPropertiesExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/RegExpExecExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/RegExpExecExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/RegExpInstancePropertiesExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/RegExpTestExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/RegExpToStringExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/StringTypeCaseMethodExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/StringTypeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/StringTypeFromCharCodeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/StringTypeLocaleCompareExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/StringTypeLocationMethodsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/StringTypeLocationMethodsExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/StringTypeManipulationMethodsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch05/Ch05/StringTypePatternMatchingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/CombinationInheritanceExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/ConstructorPatternExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/ConstructorPatternExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/ConstructorPatternExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/ConstructorStealingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/ConstructorStealingExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/CreatingObjectsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/DurableConstructorPatternExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/DynamicPrototypeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/FactoryPatternExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/HybridFactoryPatternExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/HybridFactoryPatternExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/HybridPatternExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/ParasiticCombinationInheritanceExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/ParasiticConstructorPatternExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypalInheritanceExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypeChainingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypeChainingExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypeChainingExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypeChainingExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypePatternExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypePatternExample10.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypePatternExample11.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypePatternExample12.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypePatternExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypePatternExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypePatternExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypePatternExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypePatternExample6.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypePatternExample7.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypePatternExample8.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch06/Ch06/PrototypePatternExample9.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch07/Ch07/BlockScopeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch07/Ch07/BlockScopeExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch07/Ch07/BlockScopeExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch07/Ch07/ClosureExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch07/Ch07/ClosureExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch07/Ch07/ModuleAugmentationPatternExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch07/Ch07/ModulePatternExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch07/Ch07/PrivilegedMethodExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch07/Ch07/PrivilegedMethodExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch07/Ch07/RecursionExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch07/Ch07/RecursionExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch07/Ch07/ThisObjectExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch07/Ch07/ThisObjectExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/FramesetExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/IntervalExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/IntervalExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/LocationExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/LocationExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/LocationReplaceExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/PluginDetectionExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/PluginDetectionExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/PluginDetectionExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/PopupBlockerExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/SystemDialogExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/SystemDialogExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/SystemDialogExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/TimeoutExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/TimeoutExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/TimeoutExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/WindowOpenExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/WindowOpenExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/WindowPositionExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/WindowPositionExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/WindowSizeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/WindowSizeExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/anotherframe.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/anotherframeset.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/blue.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/frame.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/frameset1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/red.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch08/yetanotherframe.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch09/CapabilitiesDetectionExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch09/QuirksDetectionExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch09/UserAgentDetectionExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch09/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/AttrExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/CDataSectionNodeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/CommentNodeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/CompareDocumentPositionExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/ContainsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/ContainsExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/CreateElementExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/DocumentFragmentExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/DocumentWriteExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/DocumentWriteExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/DocumentWriteExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/DocumentWriteExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/DynamicScriptExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/DynamicScriptExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/DynamicStyleExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/DynamicStyleExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/ElementAttributesExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/ElementAttributesExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/ElementAttributesExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/ElementAttributesExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/ElementChildrenExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/ElementChildrenExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/GetElementByIdExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/GetElementByIdExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/GetElementByIdExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/GetElementByIdExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/GetElementsByNameExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/GetElementsByTagNameExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/HTMLElementsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/InnerHtmlExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/InnerHtmlExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/InnerHtmlExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/InnerHtmlExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/InnerTextExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/InnerTextExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/InnerTextExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/InnerTextExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/InnerTextExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/OuterHTMLExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/OuterTextExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/OuterTextExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/TextContentExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/TextContentExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/TextContentExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/TextContentExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/TextNodeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/TextNodeExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/TextNodeExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/TextNodeExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/TextNodeExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/TextNodeExample6.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch10/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/CSSRulesExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/CSSRulesExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/ComputedStylesExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/CreateDocumentExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/CreateHTMLDocumentExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/DOMRangeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/DOMRangeExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/DOMRangeExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/DOMRangeExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/DOMRangeExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/DOMRangeExample6.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/DOMRangeExample7.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/DOMRangeExample8.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/DOMRangeExample9.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/DOMStyleObjectExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/DocumentTypeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/GetBoundingClientRectExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/IEComputedStylesExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/IERangeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/IERangeExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/IERangeExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/IERangeExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/IERangeExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/IERangeExample6.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/IFrameElementExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/IFrameElementExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/NamespaceExample.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/NodeIteratorExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/NodeIteratorExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/OffsetDimensionsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/ScrollDimensionsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/StyleObjectExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/StyleSheetsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/StyleSheetsExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/TreeWalkerExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/TreeWalkerExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/UserDataExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/stylesheet1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch11/stylesheet2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/AttributeChangeEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/BeforeUnloadEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/ButtonExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/ClientCoordinatesExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/ContextMenuEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/CrossBrowserEventHandlerExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/CrossBrowserEventObjectExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/CrossBrowserEventObjectExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/CrossBrowserEventObjectExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/CrossBrowserMouseWheelEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/DOMContentLoadedEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/DOMEventFlowExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/DOMEventObjectExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/DOMEventObjectExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/DOMEventObjectExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/DOMEventObjectExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/DOMEventObjectExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/DOMEventObjectExample6.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/DOMLevel0EventHandlerExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/DOMLevel2EventHandlerExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/DOMLevel2EventHandlerExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/DOMMouseScrollEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/DOMSubtreeModifiedEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/EventBubblingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/EventCapturingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/EventDelegationExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/EventUtil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/GestureEventsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/HTMLEventHandlerExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/IEEventHandlerExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/IEEventHandlerExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/IEEventObjectExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/IEEventObjectExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/IEEventObjectExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/KeyDownEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/KeyPressEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/KeyUpEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/KeyboardEventsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/LoadEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/LoadEventExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/LoadEventExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/LoadEventExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/LoadEventExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/LoadEventExample6.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/LoadEventExample7.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/ModifierKeysExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/MouseWheelEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/NodeInsertionEventsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/NodeRemovalEventsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/OrientationChangeEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/PageShowEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/ReadyStateChangeEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/ReadyStateChangeEventExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/RelatedElementsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/ResizeEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/ScreenCoordinatesExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/ScrollEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/SimulateDOMClickExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/SimulateDOMKeyEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/SimulateFFKeyEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/SimulateIEClickExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/SimulateIEKeyEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/TextChangeEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/TextInputEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/TouchEventsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/UIEventsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/UnloadEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/example.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch12/example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/EventUtil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/FocusExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/FormFieldEventsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/FormFieldsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/FormFieldsExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/FormResetExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/FormSerializationExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/FormSubmissionExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/RichTextEditingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/SelectboxExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/SelectboxExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/SelectboxExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/SelectboxExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/SelectboxExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/SelectboxExample6.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/SelectboxExample7.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/TextboxClipboardExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/TextboxClipboardExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/TextboxGetSelectedTextExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/TextboxInputFilteringExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/TextboxPartialSelectionExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/TextboxSelectExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/TextboxTabForwardExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/blank.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch13/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/AssertExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/CommunicationErrorExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/ConsoleLoggingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/EventUtil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/InvalidCharacterExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/InvalidCharacterExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/LongURLErrorExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/OnErrorExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/OnErrorExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/OperationAbortedExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/OperationAbortedExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/OperationAbortedExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/PageLoggingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/ThrowingErrorsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/ThrowingErrorsExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/TryCatchExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/TryCatchExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch14/nonscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/CrossBrowserXPathExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/CrossBrowserXPathExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/CrossBrowserXmlExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/CrossBrowserXmlExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/CrossBrowserXsltExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DOMLevel2CoreExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DOMLevel3LoadSaveExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DOMLevel3LoadSaveExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DOMLevel3LoadSaveExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DOMLevel3LoadSaveExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DOMLevel3LoadSaveExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DOMLevel3LoadSaveExample6.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DOMLevel3LoadSaveExample7.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DOMLevel3LoadSaveExample8.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DOMParserExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DOMParserExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DomXPathExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DomXPathExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DomXPathExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DomXPathExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DomXPathExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DomXPathExample6.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DomXPathExample7.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/DomXPathExample8.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/IEXPathExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/IEXPathExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/IEXPathExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/IEXmlDomExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/IEXmlDomExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/IEXmlDomExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/IEXmlDomExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/IEXsltExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/IEXsltExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/IEXsltExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/IEXsltExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/IEXsltExample5.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/XMLSerializerExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/XsltProcessorExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/XsltProcessorExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/XsltProcessorExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/XsltProcessorExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/employees.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/employees.xslt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/employees2.xslt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/employees3.xslt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/employees4.xslt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch15/example.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/AttributesExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/ForEachInExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/NamespaceExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/NamespaceTypeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/NamespaceTypeExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/NodeKindExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/ParsingAndSerializationExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/QNameTypeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/QNameTypeExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/QueryingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/UsageExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/UsageExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/XMLConstructionExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/XMLConstructionExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/XMLConstructionExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/XMLListTypeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/XMLListTypeExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/XMLListTypeExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch16/XMLTypeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/JSONExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/JSONExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/JSONExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/JSONExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/XDomainRequestExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/XHRAlternateEventsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/XHRAsyncExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/XHRErrorEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/XHRExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/XHRLoadEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/XHRPostExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/XHRProgressEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/XHRRequestHeadersExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/XHRResponseHeadersExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/XHRTimeoutExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/addcontact.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/addressbook.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/altevents.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/example.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/example.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/json2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/postexample.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/timeout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch17/xdr.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/ArrayChunkingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/DragAndDropExample1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/DragAndDropExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/DragAndDropExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/DragAndDropExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/EventTarget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/EventTargetExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/EventTargetExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/EventUtil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/FunctionBindingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/FunctionCurryingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/FunctionCurryingExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/LazyLoadingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/RepeatingTimersExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/ScopeSafeConstructorsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/ScopeSafeConstructorsExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/ScopeSafeConstructorsExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/ScopeSafeConstructorsExample4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/ThrottlingExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch18/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch19/CookieUtil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch19/CookiesExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch19/EventUtil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch19/GlobalAndLocalStorageExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch19/GlobalStorageExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch19/LocalStorageExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch19/SessionStorageExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch19/StorageEventExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch19/SubCookieUtil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch19/SubCookiesExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch19/UserDataExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch19/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch20/SampleAntDir/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch20/SampleAntDir/dev/src/js/a.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch20/SampleAntDir/dev/src/js/aa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch20/SampleAntDir/dev/src/js/ab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch20/SampleAntDir/dev/src/js/b.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch20/SampleAntDir/dev/src/js/c.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch20/SampleAntDir/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/CanvasClearRectExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/CanvasDrawImageExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/CanvasFillRectExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/CanvasPathExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/CanvasSaveRestoreExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/CanvasStrokeRectExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/CanvasTextExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/CanvasTransformExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/CustomDropTargetExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/DataTransferExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/DragAndDropExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/DragAndDropExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/DropEffectAndEffectAllowedExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/EventUtil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/OfflineExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/SetDragImageExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch21/VideoPlayerExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/ArrayComprehensionsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/ArrayEveryAndSomeExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/ArrayFilterExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/ArrayGenericsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/ArrayIndexOfExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/ArrayMapExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/ArrayReductionExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/BlockLevelScopesExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/BlockLevelScopesExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/ConstantsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/DestructuringAssignmentExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/DestructuringAssignmentExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/DestructuringAssignmentExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/ExpressionClosureExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/GeneratorExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/GeneratorExpressionExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/GetterSetterExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/GetterSetterExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/IteratorExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/IteratorExample2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/IteratorExample3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Ch22/StringGenericsExample.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/readmefirst.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prototype.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/css/easydropdown.css" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/close.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/css/common.css" afterPath="$PROJECT_DIR$/design/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/css/login.css" afterPath="$PROJECT_DIR$/design/css/login.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/首页.html" afterPath="$PROJECT_DIR$/design/首页.html" />
     </list>
     <ignored path="jquery.iws" />
@@ -643,12 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="easydropdown.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/css/easydropdown.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.911765">
+              <caret line="204" column="1" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="首页.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/design/首页.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.07747748">
-              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.45045045">
+              <caret line="49" column="31" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="31" />
               <folding>
+                <element signature="n#style#0;n#select#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -659,96 +54,87 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExecutionContextExample5.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Ch04/_Ch04/ExecutionContextExample5.htm">
+      <file leaf-file-name="登录页面.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/登录页面.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringGenericsExample.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Ch22/StringGenericsExample.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IteratorExample3.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Ch22/IteratorExample3.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.029412">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IteratorExample.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Ch22/IteratorExample.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IteratorExample2.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Ch22/IteratorExample2.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetterSetterExample.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Ch22/GetterSetterExample.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneratorExpressionExample.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Ch22/GeneratorExpressionExample.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="忘记密码-第三步.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/忘记密码-第三步.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.9411764">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state vertical-scroll-proportion="-25.0">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
-                <element signature="n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="忘记密码-第二步.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/忘记密码-第二步.html">
+      <file leaf-file-name="云服务.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/云服务.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.794117">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-41.911766">
+              <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="云软装-云设计师.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/云软装-云设计师.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="30.882353">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="云软装-产品采购.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/云软装-产品采购.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="24.264706">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="云软装-产品采购-修改.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/云软装-产品采购-修改.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="30.882353">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="企业文化.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/企业文化.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="24.264706">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="供应商合作.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/供应商合作.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="24.264706">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="展会信息和软装动态合并版.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/展会信息和软装动态合并版.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="24.264706">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -805,6 +191,7 @@
         <option value="$PROJECT_DIR$/design/登录页面.html" />
         <option value="$PROJECT_DIR$/design/css/common.css" />
         <option value="$PROJECT_DIR$/prototype.html" />
+        <option value="$PROJECT_DIR$/design/css/easydropdown.css" />
         <option value="$PROJECT_DIR$/design/首页.html" />
       </list>
     </option>
@@ -864,20 +251,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -893,11 +266,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\jquery\design\js" />
+      <recent name="F:\jquery\design\css" />
       <recent name="F:\jquery" />
       <recent name="F:\jquery\design" />
       <recent name="F:\jquery\design\images" />
-      <recent name="F:\jquery\design\css" />
-      <recent name="F:\jquery\design\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -965,9 +338,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24479167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24479167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1001,46 +374,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design/images/广告.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/images/方案设计500+.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/images/明星2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/images/经典设计5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/images/瀑布产品2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/images/瀑布产品1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/images/海量产品1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/images/案例1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design/images/未标题-9.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1082,20 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/云服务.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="121" column="82" selection-start-line="117" selection-start-column="14" selection-end-line="121" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/登录页面.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1364,11 +683,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/design/js/jquery.easydropdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.671232">
+          <caret line="462" column="17" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/css/easydropdown.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.911765">
+          <caret line="204" column="1" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/登录页面.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/云服务.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-41.911766">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/云软装-云设计师.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="30.882353">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/云软装-产品采购.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="24.264706">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/云软装-产品采购-修改.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="30.882353">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/企业文化.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="24.264706">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/供应商合作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="24.264706">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/展会信息和软装动态合并版.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="24.264706">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/design/首页.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.07747748">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.45045045">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="31" />
           <folding>
+            <element signature="n#style#0;n#select#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
