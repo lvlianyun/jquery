@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>首页</title>
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-
+    <script src="js/jquery-1.12.0.js" type="text/javascript"></script>
 </head>
 <body class="homepage">
 <!--头部登陆那条-->
@@ -531,81 +532,156 @@
     </ul>
 </div>
 
-<!--底部-->
-<div class="footer">
-<div class="content d-center-all clearfix text-center">
-        <div class=" ">
-            <span>用户指南</span>
-            <ul>
-                <li><a href="/about/introduce" data-out-single-page="">公司介绍</a></li>
-                <li><a href="/about/team/m" data-out-single-page="">管理团队</a></li>
-                <li><a href="/about/certificate" data-out-single-page="">资质证件</a></li>
-                <li><a href="/about/disclose" data-out-single-page="">信息披露</a></li>
-                <li><a href="/about/contact" data-out-single-page="">联系我们</a></li>
-            </ul>
+<div class="footer" id="footerHeight">
+    <div class="footer_top">
+        <div class="footer_top_container">
+            <div class="ftc_left">
+                <ul class="ftcl_tab">
+                    <li class="on">
+                        <a href="javascript:void(0)">友情链接</a>
+                    </li>
+                    <li class="">
+                        <a href="javascript:void(0)">热门城市</a>
+                    </li>
+                    <li class="">
+                        <a href="javascript:void(0)">附近城市</a>
+                    </li>
+                </ul>
+                <div class="ftclt_content on">
+                    <a href="http://www.gyxuan.com/" target="_blank"> 中式设计 </a>
+                    <a href="http://sz.focus.cn/" target="_blank"> 深圳房产网 </a>
+                    <a href="http://home.365jia.cn/" target="_blank"> 合肥家装网 </a>
+                    <a href="http://lz.focus.cn/" target="_blank"> 兰州房产网 </a>
+                    <a href="http://zs.focus.cn/" target="_blank"> 中山房地产 </a>
+                    <a href="http://zh.qfang.com/" target="_blank"> 珠海房产网 </a>
+                    <a href="http://www.0738ld.com/" target="_blank"> 娄底房产网 </a>
+                    <a href="http://www.home0538.com/" target="_blank"> 泰安房产网 </a>
+                    <a href="http://www.jaz51.cn/" target="_blank"> 电视背景墙2015 </a>
+                    <a href="http://shenzhen.gongjiao.com/" target="_blank"> 深圳公交 </a>
+                    <a href="http://www.hengannet.com/" target="_blank"> 中国装饰网 </a>
+                    <a href="http://shenzhen.dyrs.com.cn/" target="_blank"> 深圳装修 </a>
+                    <a href="http://sz.zufang.com/" target="_blank"> 深圳租房网 </a>
+                    <a href="http://shenzhen.365azw.com/" target="_blank"> 深圳装修网 </a>
+                    <a href="http://sz.tuanche.com/" target="_blank"> 深圳汽车团购 </a>
+                    <a href="http://www.jnhouse.com/" target="_blank"> 济南房地产网 </a>
+                    <a href="http://sz.liepin.com/" target="_blank"> 深圳招聘 </a>
+                    <a href="http://sz.centanet.com/" target="_blank"> 深圳二手房 </a>
+                    <a href="http://www.10333.com/" target="_blank"> 建筑 </a>
+                    <a href="http://sz.wed114.cn/" target="_blank"> 深圳婚纱摄影 </a>
+                    <a href="http://shenzhen.edeng.cn/" target="_blank"> 深圳分类信息 </a>
+                    <a href="http://www.ztsfc.com/" target="_blank"> 猪头三 </a>
+                    <a href="http://www.xtfw.cn/" target="_blank"> 仙桃房网 </a>
+                    <a href="http://www.zswcn.com" target="_blank"> 装修网 </a>
+                    <a href="http://www.0757fc.com/" target="_blank"> 顺德二手房 </a>
+                    <a href="http://xm.lanfw.com/" target="_blank"> 厦门房产 </a>
+                    <a href="http://www.ehometu.com/ " target="_blank"> 装修图网 </a>
+                    <a href="http://www.cnbaowen.net/" target="_blank"> 保温材料网 </a>
+                    <a href="http://www.coatingol.com/" target="_blank"> 涂料网 </a>
+                    <a href="http://www.monarch-sw.com" target="_blank"> 十大洁具品牌 </a>
+                    <a href="http://www.to8to.com/company/sz/" target="_blank"> 深圳装修公司 </a>
+                    <a href="http://sz.jiwu.com/" target="_blank"> 深圳买房 </a>
+                    <a href="http://www.hometexnet.com/" target="_blank"> 中国家纺网 </a>
+                    <a href="http://www.08wojia.com/" target="_blank"> 长沙装修网 </a>
+                    <a href="http://sz.58.com/" target="_blank"> 深圳58同城 </a>
+                    <a href="http://sz.fang.com/" target="_blank"> 深圳房产网 </a>
+                    <a href="http://www.chinamacro.cn/" target="_blank"> 空气能热水器 </a>
+                    <a href="http://www.98654.com/" target="_blank"> 别墅设计图 </a>
+                    <a href="http://price.jc001.cn/" target="_blank"> 建材在线 </a>
+                    <a href="http://www.meilele.com/shenzhen/" target="_blank"> 深圳家具 </a>
+                </div>
+                <div class="ftclt_content">
+                    <a href="http://sz.to8to.com/" target="_blank">  深圳装修  </a>
+                    <a href="http://bj.to8to.com/" target="_blank">  北京装修  </a>
+                    <a href="http://sh.to8to.com/" target="_blank">  上海装修  </a>
+                    <a href="http://gz.to8to.com/" target="_blank">  广州装修  </a>
+                    <a href="http://cd.to8to.com/" target="_blank">  成都装修  </a>
+                    <a href="http://hz.to8to.com/" target="_blank">  杭州装修  </a>
+                    <a href="http://sy.to8to.com/" target="_blank">  沈阳装修  </a>
+                    <a href="http://cq.to8to.com/" target="_blank">  重庆装修  </a>
+                    <a href="http://tj.to8to.com/" target="_blank">  天津装修  </a>
+                    <a href="http://wh.to8to.com/" target="_blank">  武汉装修  </a>
+                </div>
+                <div class="ftclt_content">
+                    <a href="http://gz.to8to.com" target="_blank" title="广州装修网"> 广州装修 </a>
+                    <a href="http://sz.to8to.com" target="_blank" title="深圳装修网"> 深圳装修 </a>
+                    <a href="http://dg.to8to.com" target="_blank" title="东莞装修网"> 东莞装修 </a>
+                    <a href="http://fs.to8to.com" target="_blank" title="佛山装修网"> 佛山装修 </a>
+                    <a href="http://huizhou.to8to.com" target="_blank" title="惠州装修网"> 惠州装修 </a>
+                    <a href="http://sanya.to8to.com" target="_blank" title="三亚装修网"> 三亚装修 </a>
+                    <a href="http://zhongshan.to8to.com" target="_blank" title="中山装修网"> 中山装修 </a>
+                    <a href="http://zhuhai.to8to.com" target="_blank" title="珠海装修网"> 珠海装修 </a>
+                    <a href="http://shantou.to8to.com" target="_blank" title="汕头装修网"> 汕头装修 </a>
+                    <a href="http://qingyuan.to8to.com" target="_blank" title="清远装修网"> 清远装修 </a>
+                    <a href="http://jiangmen.to8to.com" target="_blank" title="江门装修网"> 江门装修 </a>
+                    <a href="http://zhaoqing.to8to.com" target="_blank" title="肇庆装修网"> 肇庆装修 </a>
+                    <a href="http://nn.to8to.com" target="_blank" title="南宁装修网"> 南宁装修 </a>
+                    <a href="http://lz.to8to.com" target="_blank" title="柳州装修网"> 柳州装修 </a>
+                    <a href="http://xm.to8to.com" target="_blank" title="厦门装修网"> 厦门装修 </a>
+                    <a href="http://haikou.to8to.com" target="_blank" title="海口装修网"> 海口装修 </a>
+                    <a href="http://beihai.to8to.com" target="_blank" title="北海装修网"> 北海装修 </a>
+                    <a href="http://guilin.to8to.com" target="_blank" title="桂林装修网"> 桂林装修 </a>
+                    <a href="http://yangjiang.to8to.com" target="_blank" title="阳江装修网"> 阳江装修 </a>
+                    <a href="http://bijie.to8to.com" target="_blank" title="毕节装修网"> 毕节装修 </a>
+                    <a href="http://ningde.to8to.com" target="_blank" title="宁德装修网"> 宁德装修 </a>
+                    <a href="http://heyuan.to8to.com" target="_blank" title="河源装修网"> 河源装修 </a>
+                    <a href="http://yunfu.to8to.com" target="_blank" title="云浮装修网"> 云浮装修 </a>
+                    <a href="http://sanming.to8to.com" target="_blank" title="三明装修网"> 三明装修 </a>
+                    <a href="http://zhanjiang.to8to.com" target="_blank" title="湛江装修网"> 湛江装修 </a>
+                    <a href="http://shaoguan.to8to.com" target="_blank" title="韶关装修网"> 韶关装修 </a>
+                    <a href="http://baise.to8to.com" target="_blank" title="百色装修网"> 百色装修 </a>
+                    <a href="http://maoming.to8to.com" target="_blank" title="茂名装修网"> 茂名装修 </a>
+                    <a href="http://jieyang.to8to.com" target="_blank" title="揭阳装修网"> 揭阳装修 </a>
+                    <a href="http://fcg.to8to.com" target="_blank" title="防城港装修网"> 防城港装修 </a>
+                    <a href="http://guigang.to8to.com" target="_blank" title="贵港装修网"> 贵港装修 </a>
+                    <a href="http://shanwei.to8to.com" target="_blank" title="汕尾装修网"> 汕尾装修 </a>
+                    <a href="http://wuzhou.to8to.com" target="_blank" title="梧州装修网"> 梧州装修 </a>
+                    <a href="http://0775.to8to.com" target="_blank" title="玉林装修网"> 玉林装修 </a>
+                    <a href="http://meizhou.to8to.com" target="_blank" title="梅州装修网"> 梅州装修 </a>
+                    <a href="http://hechi.to8to.com" target="_blank" title="河池装修网"> 河池装修 </a>
+                    <a href="http://qionghai.to8to.com" target="_blank" title="琼海装修网"> 琼海装修 </a>
+                    <a href="http://laibin.to8to.com" target="_blank" title="来宾装修网"> 来宾装修 </a>
+                    <a href="http://puning.to8to.com" target="_blank" title="普宁装修网"> 普宁装修 </a>
+                    <a href="http://chongzuo.to8to.com" target="_blank" title="崇左装修网"> 崇左装修 </a>
+                    <a href="http://nanping.to8to.com" target="_blank" title="南平装修网"> 南平装修 </a>
+                </div>
+                <a rel="nofollow" href="http://wpa.qq.com/msgrd?V=1&amp;uin=895278840&amp;Site=-&amp;Menu=yes" target="_blank" class="join_link">
+                    <span></span>
+                    友链合作                                  </a>
+            </div>
+            <div class="ftc_center">
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd>
+                        <a href="/about/introduce" data-out-single-page="">公司介绍</a>
+                        <a href="/about/team/m" data-out-single-page="">管理团队</a>
+                       <a href="/about/certificate" data-out-single-page="">资质证件</a>
+                       <a href="/about/disclose" data-out-single-page="">信息披露</a>
+                        <a href="/about/contact" data-out-single-page="">联系我们</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="ftc_right">
+                <dl>
+                    <dt>下载土巴兔APP</dt>
+                    <dd><img src="images/qcode.png" width="110px"></dd>
+                </dl>
+            </div>
         </div>
-        <div class=" ">
-            <span>软装服务</span>
-            <ul>
-                <li><a href="/about/introduce" data-out-single-page="">公司介绍</a></li>
-                <li><a href="/about/team/m" data-out-single-page="">管理团队</a></li>
-                <li><a href="/about/certificate" data-out-single-page="">资质证件</a></li>
-                <li><a href="/about/disclose" data-out-single-page="">信息披露</a></li>
-                <li><a href="/about/contact" data-out-single-page="">联系我们</a></li>
-                <li><a href="/about/introduce" data-out-single-page="">公司介绍</a></li>
-            </ul>
-        </div>
-        <div class=" ">
-            <span>交易保障</span>
-            <ul>
-                <li><a href="/about/introduce" data-out-single-page="">公司介绍</a></li>
-                <li><a href="/about/team/m" data-out-single-page="">管理团队</a></li>
-                <li><a href="/about/certificate" data-out-single-page="">资质证件</a></li>
-                <li><a href="/about/disclose" data-out-single-page="">信息披露</a></li>
-                <li><a href="/about/contact" data-out-single-page="">联系我们</a></li>
-            </ul>
-        </div>
-        <div class=" ">
-            <span>关于云软装</span>
-            <ul>
-                <li><a href="/about/introduce" data-out-single-page="">公司介绍</a></li>
-                <li><a href="/about/team/m" data-out-single-page="">管理团队</a></li>
-                <li><a href="/about/certificate" data-out-single-page="">资质证件</a></li>
-                <li><a href="/about/disclose" data-out-single-page="">信息披露</a></li>
-                <li><a href="/about/contact" data-out-single-page="">联系我们</a></li>
-            </ul>
-        </div>
-        <div class=" ">
-            <span>业务电话</span>
-            <ul>
-                <li><a href="/about/introduce" data-out-single-page="">公司介绍</a></li>
-                <li><a href="/about/team/m" data-out-single-page="">管理团队</a></li>
-                <li><a href="/about/certificate" data-out-single-page="">资质证件</a></li>
-                <li><a href="/about/disclose" data-out-single-page="">信息披露</a></li>
-                <li><a href="/about/contact" data-out-single-page="">联系我们</a></li>
-                <li><a href="/about/introduce" data-out-single-page="">公司介绍</a></li>
-            </ul>
-        </div>
+    </div>
+    <div class="footer_bottom text-center">
+        Copyright © 2012-2016 Yunruanzhuang 深圳艺无界有限公司 ｜粤公网安备 3101100200
+    </div>
+</div>
+ <script>
+     $(function(){
+         $(".ftcl_tab").find("li").on("click",function(){
+             $(this).siblings("li").removeClass("on");
+             $(this).addClass("on");
 
-
-        <div class="one-qrcode">
-            <span>扫码下载APP</span>
-            <ul>
-                <li><img src="images/qcode.png" width="110px"></li>
-                <li>扫一扫添加云软装</li>
-            </ul>
-        </div>
-        <div class="two-qrcode">
-            <span>扫码下载APP</span>
-            <ul>
-                <li><img src="images/qcode.png" width="110px"></li>
-                <li>微信号云软装</li>
-            </ul>
-        </div>
-</div>
-</div>
-<div class="copyright text-center">
-    Copyright © 2012-2016 Yunruanzhuang 深圳艺无界有限公司 ｜粤公网安备 3101100200
-</div>
+             $(".ftclt_content").hide();
+             $(".ftclt_content").eq($(this).index()).show();
+         });
+     })
+ </script>
 </body>
 </html>

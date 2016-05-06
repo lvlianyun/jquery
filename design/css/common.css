@@ -186,7 +186,7 @@ html, body {
     padding-top:10px;
     padding-bottom: 10px;
 }
-ul.clearfix,p,ul,h2,ol,h3{
+ul.clearfix,p,ul,h2,ol,h3,dl, dt, dd{
     padding: 0;
     margin: 0;
 }
@@ -634,7 +634,6 @@ a {
     /* border: solid; */
 }
 .banner {
-    /* border-top:solid 1px  rgb(226, 222, 222); */
 }
 .banner .menu-img img{
     height: 500px;
@@ -1250,9 +1249,72 @@ margin-bottom: -1px;
     float:right!important;
     padding-right: 0!important;
 }
+
+
+
+/* footer */
+.footer{width:100%; position:relative; /*top:100px*/ bottom:0; margin-top: 60px; z-index:32;}
+.footer_top{width:100%; border-top:1px solid #eee; background:#f8f8f8;padding-bottom:50px; float:left}
+.footer_top.footer_special_p{ padding-bottom:80px;}
+.footer_top_container{width:1220px; margin:0 auto;  position:relative}
+.narrow_980 .footer_top_container{width:980px}
+.ftc_left{float:left; width:888px; margin-top:23px; display:inline; position:relative}
+.narrow_980 .ftc_left{width:649px}
+.ftc_left .ftcl_tab{height:32px; border-bottom:1px solid #eaeaea}
+.ftc_left .ftcl_tab  li{float:left; position:relative; margin-right:39px; height:32px; line-height:32px; display:inline; width:auto}
+.ftc_left .ftcl_tab  li a{position:relative; width:auto; height:32px; text-align:center; line-height:32px; float:left;color:#666 }
+.ftc_left .ftcl_tab  li.on a{border-bottom:1px solid #009635; }
+.ielt7 .ftc_left .ftcl_tab li.on a{bottom:-1px; line-height:31px}
+.ftc_left .ftclt_content{margin-top:16px; display:none;width: 888px;zoom:1;}
+.ftc_left .ftclt_content:after{display:block;clear:both;content:"\0020";visibility:hidden;height:0;}
+.narrow_980 .ftc_left .ftclt_content{width: 649px;}
+.ftc_left .on{display:block}
+.ftc_left .ftclt_content a{color:#999;margin-right:10px; white-space:nowrap; height:20px; line-height:20px; float: left; }
+.ftc_left .ftclt_content a:hover{color:#666}
+.ftc_left .join_link{position:absolute; right:0; top:0; height:32px; line-height:32px; color:#666; text-align:left; width:58px; text-align:left}
+.ftc_left .join_link span{background-position:-36px 0; width:5px; height:9px; position:absolute; right:0; top:12px}
+.ftc_center{float:left; width:100px; margin:23px 0 0 85px; display:inline}
+.ftc_center dl dt{ float:left; width:100px; height:32px; line-height:32px}
+.ftc_center dl  dd{float:left; width:100px;}
+.ftc_center dl  dd a{margin-top:9px; float:left; position:relative; width:100%; height:14px; line-height:12px; color:#666}
+.ftc_center dl dd a div.wechat_bg{background-position:-322px 0; position:absolute; bottom:14px; left:-15px; width:91px; height:100px; display:none}
+.ftc_center dl  dd a.wechat_sns:hover{color:#60b400}
+.ftc_center dl  dd a.sina_sns:hover{color:#d6332a}
+.ftc_center dl  dd a.qzone_sns:hover{color:#eaaf00}
+.ftc_center dl  dd a.txwb_sns:hover{color:#42adcf}
+.ftc_center dl  dd a em{float:left; display:inline}
+.ftc_center dl  dd a.sina_sns em{ background-position: -107px 1px; width:16px; height:14px; margin-right:4px}
+.ftc_center dl  dd a.txwb_sns em{ background-position: -125px 0; width:12px; height:14px; margin-right:7px}
+.ftc_center dl  dd a.qzone_sns em{ background-position: -138px 0; width:17px; height:14px; margin-right:5px}
+.ftc_center dl  dd a.wechat_sns em{ background-position: -156px 1px; width:16px; height:14px; margin-right:6px}
+.ftc_center dl  dd a.sina_sns:hover em{ background-position: -107px -15px; }
+.ftc_center dl  dd a.txwb_sns:hover em{ background-position: -125px -16px;}
+.ftc_center dl  dd a.qzone_sns:hover em{ background-position: -138px -16px;}
+.ftc_center dl  dd a.wechat_sns:hover em{ background-position: -156px -15px;}
+.ftc_right{float:right; width:100px;margin-top:23px; display:inline}
+.ftc_right dl dt{ width:100px; height:32px; line-height:32px; text-align:center; }
+.ftc_right dl dd{ width:100px; height:100px; background-position:-412px 0}
+.footer_bottom{min-width:1220px;width:100%;padding: 10px 0; background: #4C4641; /* border-top:2px solid #009635; */ float:left}
+.narrow_980 .footer_bottom{min-width: 980px}
+.footer_bottom_container{width:1220px; margin:0 auto}
+.narrow_980 .footer_bottom_container{width: 980px}
+.fbc_menu{text-align:center; margin-top:20px}
+.fbc_menu ul li{width:71px; height:14px; display:inline-block; font-size:0; margin-left:-2px}
+.ielt8 .fbc_menu ul li{display:inline; zoom:1}
+.fbc_menu ul li a{ float:left; width:70px; height:14px; line-height:14px; color:#fff; font-size:12px}
+.fbc_menu ul li span{width:1px; height:12px; margin-top:2px; background:#fff; float:left;overflow:hidden}
+.footer_bottom_container .fbc_copyright{margin-top:18px; text-align:center; height:14px; line-height:14px; color:#666;}
+.footer_bottom_container .fbc_icp{margin-top:17px; text-align:center; height:14px; line-height:14px; color:#666;}
+.footer_bottom_container .fbc_icp a{color: #666;font-family: tahoma, arial, \5b8b\4f53;}
+.footer_bottom_container .fbc_icpico{margin-top:17px; text-align:center;height: 33px;}
+.footer_bottom_container .fbc_icpico span{display: inline-block; margin-right: 20px; }
+.footer_bottom_container .fbc_icpico span.fbc_ico1{ background-position: -156px -135px; width: 28px; height: 29px; }
+.footer_bottom_container .fbc_icpico span.fbc_ico2{ background-position: -185px -102px; width: 32px; height: 33px; }
+.footer_bottom_container .fbc_icpico span.fbc_ico3{ background-position: -156px -102px; width: 28px; height: 31px; }
+.footer_bottom_container .fbc_icpico span.fbc_ico4{background-position: 0 -225px; width: 90px; height: 32px;}
 .copyright{
     height: 38px;
-    background-color: rgb(225,225,225);
+    /* background-color: rgb(225,225,225); */
     line-height: 38px;
     font-size: 13px;
 }
