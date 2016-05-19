@@ -281,9 +281,9 @@
 
 			self.closeAll();
 			self.$select.focus();
-			window.scrollTo(scrollLeft, scrollTop+scrollOffset);
+			//window.scrollTo(scrollLeft, scrollTop+scrollOffset);
 			self.$container.addClass('open');
-			self.$scrollWrapper.css('height',self.maxHeight+'px');
+			self.$scrollWrapper.css('height','150px');
 			self.down = true;
 		},
 		

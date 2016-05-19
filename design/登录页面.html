@@ -14,25 +14,62 @@
     <p class="phone">咨询热线：4008360881</p>
 </div>
 <div class="banner">
-    <form class="login-form login-page position-absolute">
-        <h2 class="name">账号登陆</h2>
-        <div class="username"><input style="margin-left:12px;" type="text" placeholder="&nbsp;&nbsp;&nbsp;用户名/手机/邮箱"></div>
-        <div class="mobile"><input style="margin-left:12px;" type="text" placeholder="&nbsp;&nbsp;&nbsp;请输入您的密码"></div>
-        <div class="no-border clearfix"><a href="" class="float-left">忘记密码?</a><a href="" class="float-right">免费注册</a></div>
-        <div><input type="button" value="立即登陆"></div>
-        <div class="third-login no-border clearfix">
-            <p  class="third-desc text-center padd-top10-bottom10"></p>
-            <p class="float-left"><a href=""><img src="images/qq.png">&nbsp;&nbsp;&nbsp;QQ登录</a></p>
-            <p class="float-right"><a href=""><img src="images/webo.png">&nbsp;&nbsp;&nbsp;微博登录</a></p>
-        </div>
-    </form>
+
+
+
+            <form class="login-form login-form-box login-page position-absolute">
+                <div class="login_tab">
+                    <ul>
+                        <li class="on" id="weixinlogin">
+                            <a href="javascript:void(0)">微信登录<b></b></a>
+                        </li>
+                        <li id="nomallogin" class="">
+                            <a href="javascript:void(0)">帐号登录</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="login_wrap"> <div class="wechat_login wechat_dengru">
+                    <div class="wl_codeLayer">
+                        <span id="img_weixincode"><img src="https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQEj8DoAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL04zV0xDcURtVXhNcUxiSk51RnZnAAIExPY6VwMELAEAAA==" id="weixincode" width="140" height="140"><i></i></span>
+                        <span class="wl_font">微信扫码&nbsp;&nbsp;快速登录</span>
+                        <div class="wechat_fail" id="login_error" style="display:none">
+                            <b></b>
+                            <strong>二维码失效</strong>
+                            <span>请点击<a href="javascript:updatecode()">刷新二维码</a></span>
+                        </div>
+
+
+                        <div class="wechat_login_success" id="login_success" style="display:none">
+                            <b></b>
+                            <strong>扫描成功</strong>
+                            <span>如未跳转，请刷新页面</span>
+                        </div>
+                    </div>
+                    <img src="http://img.to8to.com/decorate_gallery/images/confirm/wechat_help.jpg?v=1456928932" width="222" height="178" style="display:none" class="wechat_help">
+
+
+
+
+                </div></div>
+                <div class="login_wrap login-form-box" style="display: none;">
+                    <div class="username"><input style="margin-left:32px;" type="text" placeholder="&nbsp;&nbsp;&nbsp;用户名/手机/邮箱"></div>
+                    <div class="mobile"><input style="margin-left:32px;" type="text" placeholder="&nbsp;&nbsp;&nbsp;请输入您的密码"></div>
+                    <div class="no-border clearfix"><a href="" class="float-left">忘记密码?</a><a href="" class="float-right">免费注册</a></div>
+                    <div><input type="button" value="立即登陆"></div>
+                    <div class="third-login no-border clearfix">
+                        <p  class="third-desc text-center padd-top10-bottom10"></p>
+                        <p class="float-left"><a href=""><img src="images/qq.png">&nbsp;&nbsp;&nbsp;QQ登录</a></p>
+                        <p class="float-right"><a href=""><img src="images/webo.png">&nbsp;&nbsp;&nbsp;微博登录</a></p>
+                    </div>
+                </div>
+            </form>
+
     <div class="content clearfix" style="height: 610px">
         <img class="login-logo" id="login-logo1" src="images/login-bg1.png">
         <img class="login-logo display-none" id="login-logo2" src="images/banner.png">
         <img class="login-logo display-none" id="login-logo3" src="images/login-bg1.png">
     </div>
 </div>
-
 
 <div class="bottom text-center">
     <p class=""><a href="">用户指南 </a> | <a href="">  软装服务 </a>  |   <a href="">交易保障 </a>  |   <a href="">关于云软装  </a> |   <a href="">联系我们  </a> </p>
@@ -52,6 +89,16 @@
                   }
               });
           },10000);
+
+
+        $(".login_tab li").on("click",function(e){
+            e.preventDefault();
+            e.stopPropagation();
+            var index=$(this).index();
+            $(this).siblings("li").removeClass("on").end().addClass("on");
+            $(".login_wrap").hide();
+            $(".login_wrap").eq(index).show();
+        })
     });
 
 </script>

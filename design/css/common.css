@@ -436,7 +436,7 @@ a {
     border: solid 1px rgb(218, 215, 215);
     z-index: 100;
     width: 320px;
-    /* height: 340px; */
+    height: 360px;
     box-shadow: 0px 2px 2px 0px;
 }
 .login-form input[type=button]{
@@ -453,11 +453,14 @@ a {
 .login-form .desc{
     padding: 0px 0 6px;
 }
+
 .login-form > div {
-    /* margin-left: 10px; */
+     margin-left: 10px;
     margin: 21px 15px;
-    border: solid 1px #e4e4e4;
+     border: solid 1px #e4e4e4;
 }
+
+
 .login-form .prince-input{
     margin-right: 16px;
 }
@@ -636,6 +639,8 @@ a {
     display: inline-block;
 }
 .banner {
+    width: 100%;
+    position: relative;
 }
 .banner .menu-img img{
     height: 500px;
@@ -792,46 +797,49 @@ a {
 .design-case .list-two .desc p{
     padding-left: 7px;
 }
-.design-case .tools-list{
+ .tools-list{
+     position: fixed;
     width: 38px;
-    right: -37px;
+    right: 0px;
     bottom: 87px;
     border: solid 1px  rgb(224, 222, 220);
-    border-left: none;
+     z-index: 10000;
+     background-color: white;
 }
-.design-case .tools-list ul li a{
+ .tools-list ul li a{
     box-sizing: border-box;
     display: inline-block;
     width:38px;
     height: 37px;
     background-image: url(../images/user_operate.png);
 }
-.design-case .tools-list ul li:first-child a{
+ .tools-list ul li:first-child a{
     background-position: -10px -1px;
 }
-.design-case .tools-list ul li:last-child a{
+ .tools-list ul li:last-child a{
     background-position: -10px -117px;
     border-top: solid 1px rgb(224, 222, 220);
 }
-.design-case .tools-list ul .two a{
+ .tools-list ul .two a{
     background-position: -10px -186px;
 }
-.design-case .tools-list ul .three a{
+ .tools-list ul .three a{
     background-position: -10px -222px;
 }
-.design-case .tools-list ul li:first-child a:hover{
+ .tools-list ul li:first-child a:hover{
     background-position: -81px -1px;
 }
-.design-case .tools-list ul li:last-child a:hover{
+ .tools-list ul li:last-child a:hover{
     background-position: -81px -117px;
 }
 
-.design-case .tools-list ul .two  a:hover{
+ .tools-list ul .two  a:hover{
     background-position: -81px -186px;
 }
-.design-case .tools-list ul .three  a:hover{
+ .tools-list ul .three  a:hover{
     background-position: -81px -222px;
 }
+
 .designers-recommend, .design-case,.many-product,.lastest-news {
     padding-bottom: 45px;
 }

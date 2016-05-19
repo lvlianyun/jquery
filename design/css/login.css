@@ -44,8 +44,18 @@
     position: absolute;
 }
 .login-page{
-    right: 348px;
-    top: 253px;
+    right: 10%;
+    top: 100px;
+}
+
+
+.login-form-box > div {
+    margin-left: 10px;
+    margin: 21px 15px;
+    border: none;
+}
+.login-form-box .username,.login-form-box  .mobile{
+    border:solid 1px #e4e4e4;
 }
 .register .title{
     text-align: center;
@@ -192,3 +202,31 @@
     padding: 4px 12px;
     border-radius: 5px;
 }
+.login_box {display: block;width: 250px;height: 36px;margin: 0 auto;font-size: 14px;line-height: 36px;text-align: center;color: #fff;background: #f36f20; border: 0; cursor: pointer; }
+.login_box{background: #e7691e;color: #fff;}
+
+.login_tab{width: 250px; height: 35px; position: relative; border-bottom: 1px solid #eee; margin-bottom:20px; }
+
+.login_tab ul li{width:124px; height: 35px; text-align: center; line-height: 35px; float: left; cursor: pointer;  }
+.login_tab ul li a{color: #333;font-size: 16px; width:125px; margin:0 auto; height: 35px;  display: block;  }
+.login_tab ul li.on a{color: #00af63; border-bottom:2px solid #00b161;}
+.login_tab ul li a b{position: absolute; width: 18px; height: 11px; background-position: -201px -16px; top: 0; right: 132px}
+
+
+.wechat_login{/*text-align: center*/}
+.wechat_login img{margin: 0 auto; border: 1px solid #efefef}
+.wechat_login span,.wl_codeLayer .wl_font{ display: block; text-align: center;  font-size: 14px}
+.wl_codeLayer .wl_font{margin-top:11px;}
+.wechat_login a.wh_link{color: #999; display: block; text-align: center; margin:7px 0 0 98px; float: left;font-size: 12px;}
+.wechat_login a.wh_qcode{margin:10px 0 0 92px;}
+.wl_codeLayer{height: 180px}
+.wechat_login a.wh_link:hover,.wechat_help a.wh_link{color: #f25618}
+.wechat_help a.wh_link{text-decoration: underline !important; font-size: 14px}
+.wechat_login_success,.wechat_fail{position: relative; margin:10px auto 0 auto; width: 140px}
+.wechat_login_success b,.wechat_fail b{background-position: -91px -225px; width: 32px; height: 32px; display: block}
+.wechat_login_success strong, .wechat_fail strong{position: absolute; top: -5px; left: 44px; font-size: 14px}
+.wechat_login_success span, .wechat_fail span{position: absolute; top: 13px; left: 26px; width: 160px}
+.wechat_fail b{background-position: -124px -225px}
+.wechat_fail span{width: 147px }
+.wechat_fail span a{color: #01af63}
+.wechat_fail span a:hover{color: #f25618}
